@@ -1,0 +1,1 @@
+# giaiphap-qrcare-vn
