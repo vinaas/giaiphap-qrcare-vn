@@ -1,0 +1,650 @@
+<!DOCTYPE html><html><head>
+      <title>qrcare</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+.markdown-preview.markdown-preview td,
+.markdown-preview.markdown-preview th {
+  border: none!important;
+}
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <p>Slogan: We help organizations to help all more effective</p>
+<h3 class="mume-header" id="%C4%91%E1%BB%8Bnh-h%C6%B0%E1%BB%9Bng">&#x110;&#x1ECB;nh h&#x1B0;&#x1EDB;ng</h3>
+
+<ol>
+<li>
+<p>Gi&#xFA;p Doanh nghi&#x1EC7;p n&#xE2;ng cao hi&#x1EC7;u qu&#x1EA3; trong vi&#x1EC7;c ph&#x1EE5;c v&#x1EE5; kh&#xE1;ch h&#xE0;ng &#x111;&#xE3; mua v&#xE0; s&#x1EED; d&#x1EE5;ng s&#x1EA3;n ph&#x1EA9;m</p>
+</li>
+<li>
+<p>N&#xE2;ng cao hi&#x1EC7;u qu&#x1EA3; m&#x1EA1;ng l&#x1B0;&#x1EDB;i kinh doanh &#x111;&#x1EC3; ph&#x1EE5;c v&#x1EE5; kh&#xE1;ch h&#xE0;ng t&#x1ED1;t h&#x1A1;n:</p>
+</li>
+</ol>
+<ul>
+<li>M&#x1EA1;ng l&#x1B0;&#x1EDB;i kinh doanh: &#x111;&#x1ED1;i t&#xE1;c, &#x111;&#x1EA1;i l&#xFD;, c&#x1ED9;ng t&#xE1;c vi&#xEA;n ... &#x111;&#x1EC3; t&#xEC;m ki&#x1EBF;m kh&#xE1;ch h&#xE0;ng m&#x1EDB;i, t&#x1EAD;p trung v&#xE0;o kh&#xE1;ch h&#xE0;ng th&#x1B0;&#x1EDD;ng xuy&#xEA;n</li>
+</ul>
+<ol>
+<li>N&#xE2;ng cao hi&#x1EC7;u qu&#x1EA3; c&#x1EE7;a &#x111;&#x1ED9;i ng&#x169; nh&#xE2;n vi&#xEA;n, ho&#x1EA1;t &#x111;&#x1ED9;ng n&#x1ED9;i b&#x1ED9;</li>
+</ol>
+<ul>
+<li>Nh&#xE2;n vi&#xEA;n &#x111;&#x1B0;&#x1EE3;c ph&#x1EE5;c v&#x1EE5; nh&#x1B0; kh&#xE1;ch h&#xE0;ng</li>
+</ul>
+<h3 class="mume-header" id="ph%C6%B0%C6%A1ng-ph%C3%A1p-th%E1%BB%B1c-hi%E1%BB%87n">Ph&#x1B0;&#x1A1;ng ph&#xE1;p th&#x1EF1;c hi&#x1EC7;n</h3>
+
+<ol>
+<li>Th&#x1EBB; QRCare: k&#xEA;nh ph&#x1EE5;c v&#x1EE5; ri&#xEA;ng t&#x1B0;, c&#xE1; nh&#xE2;n ho&#xE1; cho t&#x1EEB;ng kh&#xE1;ch h&#xE0;ng</li>
+</ol>
+<ul>
+<li>qu&#xE9;t b&#x1EB1;ng camera &#x111;i&#x1EC7;n tho&#x1EA1;i &#x111;&#x1EC3; truy c&#x1EAD;p, kh&#xF4;ng c&#x1EA7;n c&#xE0;i &#x111;&#x1EB7;t mobileapp v&#xE0; &#x111;&#x103;ng k&#xFD; t&#xE0;i kho&#x1EA3;n &#x111;&#x1EC3; &#x111;&#x103;ng nh&#x1EAD;p</li>
+<li>c&#x1EAD;p nh&#x1EAD;t th&#xF4;ng tin ri&#xEA;ng t&#x1B0;, &#xE1;p d&#x1EE5;ng theo t&#x1EEB;ng kh&#xE1;ch h&#xE0;ng.</li>
+<li>kh&#xF4;ng c&#x1EA7;n kh&#xE1;ch h&#xE0;ng cung c&#x1EA5;p s&#x1ED1; &#x111;i&#x1EC7;n tho&#x1EA1;i, email,...</li>
+</ul>
+<ol>
+<li>QRCall: t&#x1ED5;ng &#x111;&#xE0;i mi&#x1EC5;n ph&#xED;, c&#xE1; nh&#xE2;n ho&#xE1; theo t&#x1EEB;ng kh&#xE1;ch h&#xE0;ng</li>
+</ol>
+<ul>
+<li>&#x111;&#x1B0;&#x1EE3;c g&#x1ECD;i l&#x1EA1;i khi c&#xF3; nhu c&#x1EA7;u</li>
+<li>kh&#xF4;ng c&#x1EA7;n cung c&#x1EA5;p s&#x1ED1; &#x111;i&#x1EC7;n tho&#x1EA1;i &#x111;&#x1EC3; &#x111;&#x1B0;&#x1EE3;c ch&#x103;m s&#xF3;c: d&#xF9;ng video call</li>
+</ul>
+<ol>
+<li>S&#x1ED1; ho&#xE1; s&#x1EA3;n ph&#x1EA9;m v&#xE0; m&#x1EA1;ng l&#x1B0;&#x1EDB;i kinh doanh b&#x1EB1;ng c&#xE1;c lo&#x1EA1;i Th&#x1EBB; QRCare:</li>
+</ol>
+<ul>
+<li>qrCustomers: th&#x1EBB; cho kh&#xE1;ch h&#xE0;ng</li>
+<li>qrProducts: th&#x1EBB; cho s&#x1EA3;n ph&#x1EA9;m</li>
+</ul>
+<ol>
+<li>S&#x1EED; d&#x1EE5;ng c&#xF4;ng ngh&#x1EC7; &#x111;&#x1EC3; gi&#xE1;m s&#xE1;t s&#x1ED1; l&#x1B0;&#x1EE3;ng l&#x1EDB;n hi&#x1EC7;u qu&#x1EA3; thay v&#xEC; qu&#x1EA3;n l&#xFD; tr&#x1EF1;c ti&#x1EBF;p.</li>
+</ol>
+<h3 class="mume-header" id="kh%C3%A1c-bi%E1%BB%87t-c%E1%BB%A7a-qrcare">Kh&#xE1;c bi&#x1EC7;t c&#x1EE7;a QRCare</h3>
+
+<p>Kh&#xE1;ch h&#xE0;ng quen thu&#x1ED9;c:</p>
+<ul>
+<li>T&#x1EAD;p trung ph&#x1EE5;c v&#x1EE5; kh&#xE1;ch h&#xE0;ng th&#x1B0;&#x1EDD;ng xuy&#xEA;n, ng&#x1B0;&#x1EDD;i s&#x1EED; d&#x1EE5;ng s&#x1EA3;n ph&#x1EA9;m</li>
+</ul>
+<p>T&#x1B0;&#x1A1;ng t&#xE1;c tin c&#x1EAD;y:</p>
+<ul>
+<li>Kh&#xE1;ch h&#xE0;ng &#x111;&#x1B0;&#x1EE3;c ph&#x1EE5;c v&#x1EE5; b&#x1EDF;i nh&#x1EEF;ng nh&#xE2;n vi&#xEA;n, c&#xF4;ng t&#xE1;c vi&#xEA;n quen thu&#x1ED9;c.</li>
+</ul>
+<p>Ph&#x1EE5;c v&#x1EE5; khi c&#x1EA7;n:</p>
+<ul>
+<li>Ph&#x1EE5;c v&#x1EE5; khi kh&#xE1;ch h&#xE0;ng c&#x1EA7;n, kh&#xF4;ng thu th&#x1EAD;p th&#xF4;ng tin c&#xE1; nh&#xE2;n ho&#x1EB7;c spam cho kh&#xE1;ch h&#xE0;ng</li>
+</ul>
+<p>QRCustomer: gi&#x1EA3;i ph&#xE1;p gi&#xE1;m s&#xE1;t, ch&#x103;m s&#xF3;c kh&#xE1;ch h&#xE0;ng c&#x1EE7;a doanh nghi&#x1EC7;p</p>
+<ul>
+<li><a href="qrmember.md">qrMember</a>: kh&#xE1;ch h&#xE0;ng ti&#x1EC1;m n&#x103;ng</li>
+<li>qrLoyalty: kh&#xE1;ch h&#xE0;ng trung th&#xE0;nh</li>
+<li>qrMaketing: quay s&#x1ED1;, t&#x1EB7;ng qu&#xE0; theo qr,...</li>
+<li>qrEvents: s&#x1EF1; ki&#x1EC7;n l&#xF4;i k&#xE9;o kh&#xE1;ch h&#xE0;ng tham gia</li>
+</ul>
+<p><strong>QRCare: l&#xE0; gi&#x1EA3;i ph&#xE1;p c&#xF4;ng ngh&#x1EC7; gi&#xFA;p Doanh nghi&#x1EC7;p n&#xE2;ng cao hi&#x1EC7;u qu&#x1EA3; trong vi&#x1EC7;c ph&#x1EE5;c v&#x1EE5; kh&#xE1;ch h&#xE0;ng, nh&#x1EA5;t l&#xE0; nh&#x1EEF;ng kh&#xE1;ch quen: &#x111;&#xE3; mua ho&#x1EB7;c s&#x1EED; d&#x1EE5;ng s&#x1EA3;n ph&#x1EA9;m, d&#x1ECB;ch v&#x1EE5; c&#x1EE7;a Doanh nghi&#x1EC7;p.</strong></p>
+<p>C&#xF4;ng ngh&#x1EC7; c&#x1EE7;a QRCare gi&#xFA;p doanh nghi&#x1EC7;p nh&#x1EAD;n di&#x1EC7;n &#x111;&#x1B0;&#x1EE3;c t&#x1EEB;ng kh&#xE1;ch quen th&#xF4;ng qua m&#xE3; qrcode m&#xE0; h&#x1ECD; &#x111;&#xE3; qu&#xE9;t, t&#x1B0;&#x1A1;ng t&#x1EF1; c&#xE1;ch nh&#x1EAD;n di&#x1EC7;n d&#x1EF1;a tr&#xEA;n s&#x1ED1; &#x111;i&#x1EC7;n tho&#x1EA1;i c&#x1EE7;a kh&#xE1;ch quen khi g&#x1ECD;i t&#x1EDB;i t&#x1ED5;ng &#x111;&#xE0;i. C&#x1A1; ch&#x1EBF; t&#x1EF1; &#x111;&#x1ED9;ng nh&#x1EAD;n di&#x1EC7;n, kh&#xF4;ng c&#x1EA7;n kh&#xE1;ch h&#xE0;ng cung c&#x1EA5;p th&#xF4;ng tin, r&#x1EA5;t quan tr&#x1ECD;ng trong vi&#x1EC7;c n&#xE2;ng cao hi&#x1EC7;u qu&#x1EA3; ph&#x1EE5;c v&#x1EE5;, nh&#x1EA5;t l&#xE0; v&#x1EDB;i kh&#xE1;ch h&#xE0;ng th&#x1B0;&#x1EDD;ng xuy&#xEA;n, quan tr&#x1ECD;ng.</p>
+<p>QRCare gi&#xFA;p Doanh nghi&#x1EC7;p ch&#x1EE7; &#x111;&#x1ED9;ng g&#x1ECD;i l&#x1EA1;i ngay cho kh&#xE1;ch h&#xE0;ng, ch&#x1EE7; &#x111;&#x1ED9;ng k&#x1EBF;t n&#x1ED1;i v&#x1EDB;i nh&#xE2;n vi&#xEA;n &#x111;&#xE3; t&#x1EEB;ng ph&#x1EE5;c v&#x1EE5; l&#x1EA7;n tr&#x1B0;&#x1EDB;c &#x111;&#x1EC3; nhanh ch&#xF3;ng n&#x1EAF;m b&#x1EAF;t y&#xEA;u c&#x1EA7;u &#x111;&#x1B0;a ra m&#xE0; kh&#xF4;ng c&#x1EA7;n kh&#xE1;ch h&#xE0;ng gi&#x1EA3;i th&#xED;ch l&#x1EA1;i nh&#x1EEF;ng n&#x1ED9;i dung c&#x169;.<br>
+QRCare c&#xF2;n cung c&#x1EA5;p h&#x1EC7; th&#x1ED1;ng qrCall, &#x111;&#x1EC3; Doanh nghi&#x1EC7;p g&#x1ECD;i l&#x1EA1;i ngay cho kh&#xE1;ch h&#xE0;ng khi nh&#x1EAD;n y&#xEA;u c&#x1EA7;u. &#x110;&#xE2;y l&#xE0; m&#x1ED9;t ti&#xEA;u chu&#x1EA9;n, m&#xE0; Doanh nghi&#x1EC7;p n&#xEA;n cung c&#x1EA5;p &#x111;&#x1EC3; mang l&#x1EA1;i tr&#x1EA3;i nghi&#x1EC7;m &quot;&#x111;&#x1B0;&#x1EE3;c ph&#x1EE5;c v&#x1EE5;&quot; cho kh&#xE1;ch h&#xE0;ng. Chi ti&#x1EBF;t tham kh&#x1EA3;o th&#xEA;m v&#x1EC1; qrCall.</p>
+<p>&#x110;&#x1EC3; &#x111;&#x1B0;&#x1EE3;c ph&#x1EE5;c v&#x1EE5; b&#x1EB1;ng qrCall, kh&#xE1;ch h&#xE0;ng c&#x1EA7;n &quot;qu&#xE9;t th&#x1EBB; QRCare&quot;, m&#x1ED9;t h&#xE0;nh &#x111;&#x1ED9;ng &#x111;&#x1A1;n gi&#x1EA3;n v&#xE0; ng&#xE0;y c&#xE0;ng th&#xF4;ng d&#x1EE5;ng khi s&#x1EED; d&#x1EE5;ng smartphone. &quot;Qu&#xE9;t Th&#x1EBB;&quot; l&#xE0; c&#xE1;ch &#x111;&#x1EC3; QRCare nh&#x1EAD;n di&#x1EC7;n kh&#xE1;ch h&#xE0;ng.</p>
+<p><strong>QRCare l&#xE0; gi&#x1EA3;i ph&#xE1;p gi&#xFA;p kh&#xE1;ch h&#xE0;ng nh&#x1EDB; t&#x1EDB;i Doanh nghi&#x1EC7;p, nh&#x1EDB; t&#x1EDB;i ti&#xEA;u chu&#x1EA9;n ph&#x1EE5;c v&#x1EE5; m&#xE0; h&#x1ECD; &#x111;&#x1B0;&#x1EE3;c tr&#x1EA3;i nghi&#x1EC7;m.</strong></p>
+<p>T&#x1EA5;m Th&#x1EBB; QRCare m&#xE0; m&#x1ED7;i kh&#xE1;ch h&#xE0;ng nh&#x1EAD;n &#x111;&#x1B0;&#x1EE3;c, l&#xE0; k&#xEA;nh t&#x1B0;&#x1A1;ng t&#xE1;c ri&#xEA;ng t&#x1B0; khi kh&#xE1;ch h&#xE0;ng c&#x1EA7;n Doanh nghi&#x1EC7;p ph&#x1EE5;c v&#x1EE5;. Th&#x1EBB; &#x111;&#x1B0;&#x1EE3;c d&#xE1;n c&#xF9;ng s&#x1EA3;n ph&#x1EA9;m, &#x111;&#x1EC3; trong v&#xED;, ho&#x1EB7;c c&#xE1;c v&#x1ECB; tr&#xED; d&#x1EC5; nh&#x1EAD;n bi&#x1EBF;t gi&#xFA;p kh&#xE1;ch h&#xE0;ng nh&#x1EDB; t&#x1EDB;i Doanh nghi&#x1EC7;p ngay khi c&#x1EA7;n, m&#xE0; kh&#xF4;ng c&#x1EA7;n l&#x1EE5;c t&#xEC;m trong &#x111;i&#x1EC7;n tho&#x1EA1;i, t&#xEC;m ki&#x1EBF;m tr&#xEA;n google n&#x1A1;i c&#xF3; qu&#xE1; nhi&#x1EC1;u &#x111;&#x1ED1;i th&#x1EE7; t&#x1B0;&#x1A1;ng t&#x1EF1;. Khi c&#xF3; nhu c&#x1EA7;u, kh&#xE1;ch quen s&#x1EBD; ch&#x1EE7; &#x111;&#x1ED9;ng t&#x1B0;&#x1A1;ng t&#xE1;c tr&#xEA;n k&#xEA;nh n&#xE0;y, &#x111;&#x1EC3; nh&#x1EAD;n &#x111;&#x1B0;&#x1EE3;c s&#x1EF1; ph&#x1EE5;c v&#x1EE5; t&#x1ED1;t h&#x1A1;n,</p>
+<p>T&#x1EA5;t nhi&#xEA;n, Doanh nghi&#x1EC7;p c&#x1EA7;n cung c&#x1EA5;p s&#x1EA3;n ph&#x1EA9;m, d&#x1ECB;ch v&#x1EE5; t&#x1B0;&#x1A1;ng &#x111;&#x1ED1;i t&#x1ED1;t c&#x169;ng nh&#x1B0; gi&#x1EDB;i thi&#x1EC7;u kh&#xE1;ch h&#xE0;ng tr&#x1EA3;i nghi&#x1EC7;m th&#x1EBB; QRCare v&#xE0;i l&#x1EA7;n &#x111;&#x1EA7;u. Th&#xF4;ng tin s&#x1EA3;n ph&#x1EA9;m v&#xE0; l&#x1ECB;ch s&#x1EED; ph&#x1EE5;c v&#x1EE5; v&#xE0; nh&#x1EA5;t l&#xE0; tr&#x1EA3;i nghi&#x1EC7;m &#x111;&#x1A1;n gi&#x1EA3;n s&#x1EBD; ghi d&#x1EA5;u &#x1EA5;n v&#x1EDB;i kh&#xE1;ch h&#xE0;ng. V&#xE0; trong qu&#xE1; tr&#xEC;nh s&#x1EED; d&#x1EE5;ng s&#x1EA3;n ph&#x1EA9;m, s&#x1EF1; hi&#x1EC7;n di&#x1EC7;n c&#x1EE7;a Th&#x1EBB; s&#x1EBD; nh&#x1EAF;c nh&#x1EDB; cho kh&#xE1;ch h&#xE0;ng.</p>
+<p><strong>Th&#x1EBB; QRCare gi&#xFA;p Doanh nghi&#x1EC7;p ph&#x1EE5;c v&#x1EE5; &#x111;&#x1B0;&#x1EE3;c nh&#x1EEF;ng ng&#x1B0;&#x1EDD;i s&#x1EED; d&#x1EE5;ng, nh&#x1EEF;ng ng&#x1B0;&#x1EDD;i c&#xF3; t&#xE1;c &#x111;&#x1ED9;ng l&#x1EDB;n t&#x1EDB;i quy&#x1EBF;t &#x111;&#x1ECB;nh mua h&#xE0;ng ti&#x1EBF;p theo v&#xE0; c&#xF3; khi l&#xE0; kh&#xE1;ch h&#xE0;ng m&#x1EDB;i</strong></p>
+<p>Doanh nghi&#x1EC7;p th&#x1B0;&#x1EDD;ng t&#x1EAD;p trung ph&#x1EE5;c v&#x1EE5; kh&#xE1;ch h&#xE0;ng l&#xE0; ng&#x1B0;&#x1EDD;i mua s&#x1EA3;n ph&#x1EA9;m, v&#xE0; &quot;b&#x1ECF; qu&#xEA;n&quot; ng&#x1B0;&#x1EDD;i s&#x1EED; d&#x1EE5;ng s&#x1EA3;n ph&#x1EA9;m. Ngay c&#x1EA3; ng&#x1B0;&#x1EDD;i s&#x1EED; d&#x1EE5;ng l&#xE0; ch&#xED;nh ng&#x1B0;&#x1EDD;i mua, th&#xEC; sau khi tr&#x1EA3; ti&#x1EC1;n, th&#xE1;i &#x111;&#x1ED9; ph&#x1EE5;c v&#x1EE5; c&#x1EE7;a nh&#xE2;n vi&#xEA;n c&#xF3; khi c&#x169;ng</p>
+<p>&#x110;&#x1B0;&#x1EE3;c ph&#x1EE5;c v&#x1EE5; v&#x1EDB;i th&#xE1;i &#x111;&#x1ED9; nghi ng&#x1EDD;, c&#x1EA7;n cung c&#x1EA5;p th&#xF4;ng tin &#x111;&#x1A1;n h&#xE0;ng, s&#x1ED1; &#x111;i&#x1EC7;n tho&#x1EA1;i,....</p>
+<p>Ch&#xFA;ng t&#xF4;i cho r&#x1EB1;ng, ng&#x1B0;&#x1EDD;i s&#x1EED; d&#x1EE5;ng s&#x1EA3;n ph&#x1EA9;m c&#xF3; vai tr&#xF2; quan tr&#x1ECD;ng, kh&#xF4;ng k&#xE9;m ng&#x1B0;&#x1EDD;i mua.</p>
+<p>Gi&#xFA;p h&#x1ECD; bi&#x1EBF;t &#x111;&#x1B0;&#x1EE3;c l&#x1ECB;ch s&#x1EED; t&#x1B0;&#x1A1;ng t&#xE1;c ch&#x1EC9; b&#x1EB1;ng c&#xE1;ch qu&#xE9;t Th&#x1EBB;, thay v&#xEC; ph&#x1EA3;i truy c&#x1EAD;p v&#xE0;o website c&#x1EE7;a doanh nghi&#x1EC7;p v&#xE0; &#x111;&#x103;ng nh&#x1EAD;p v&#x1EDB;i t&#xE0;i kho&#x1EA3;n.</p>
+<p>qrCare: Gi&#x1EA3;i ph&#xE1;p V&#xF2;ng &#x111;&#x1EDD;i s&#x1EA3;n ph&#x1EA9;m, thi&#x1EBF;t b&#x1ECB;</p>
+<p>qrCall: T&#x1ED5;ng &#x111;&#xE0;i ph&#x1EE5;c v&#x1EE5; ri&#xEA;ng theo kh&#xE1;ch h&#xE0;ng b&#x1EB1;ng c&#xE1;ch G&#x1ECD;i l&#x1EA1;i</p>
+<p>qrMember: Gi&#x1EA3;i ph&#xE1;p ch&#x103;m s&#xF3;c c&#xE1;c kh&#xE1;ch h&#xE0;ng ti&#x1EC1;m n&#x103;ng, ch&#x1B0;a mua h&#xE0;ng</p>
+<p>qrLoyalty Gi&#x1EA3;i ph&#xE1;p ch&#x103;m s&#xF3;c kh&#xE1;ch h&#xE0;ng trung th&#xE0;nh, n&#xE2;ng cao ch&#x1EA5;t l&#x1B0;&#x1EE3;ng ph&#x1EE5;c v&#x1EE5; v&#xE0; gi&#xE1; tr&#x1ECB; &#x111;&#x1A1;n h&#xE0;ng</p>
+<p>qrEmployee: Gi&#x1EA3;i ph&#xE1;p Ch&#x1EE9;ng th&#x1EF1;c nh&#xE2;n vi&#xEA;n c&#x1EE7;a Doanh nghi&#x1EC7;p</p>
+<p>qrSale: Th&#x1EBB; cho nh&#xE2;n vi&#xEA;n sale, c&#x1ED9;ng t&#xE1;c vi&#xEA;n</p>
+<p>S&#x1ED1; ho&#xE1; m&#x1EA1;ng l&#x1B0;&#x1EDB;i ph&#xE2;n ph&#x1ED1;i, b&#xE1;n h&#xE0;ng</p>
+<ul>
+<li>gi&#xE1;m s&#xE1;t k&#xEA;nh ph&#xE2;n ph&#x1ED1;i</li>
+</ul>
+<p>qrAssets: gi&#x1EA3;i ph&#xE1;p n&#xE2;ng cao hi&#x1EC7;u qu&#x1EA3; ho&#x1EA1;t &#x111;&#x1ED9;ng c&#x1EE7;a doanh nghi&#x1EC7;p, g&#x1ED3;m nh&#x1EEF;ng gi&#x1EA3;i ph&#xE1;p &#x111;&#x1EC3; nh&#xE2;n vi&#xEA;n ch&#x1EE7; &#x111;&#x1ED9;ng h&#x1A1;n trong vi&#x1EC7;c n&#xE2;ng cao hi&#x1EC7;u qu&#x1EA3; s&#x1EED; d&#x1EE5;ng thi&#x1EBF;t b&#x1ECB; &#x111;&#x1B0;&#x1EE3;c c&#x1EA5;p ph&#xE1;t.</p>
+<p>Trong c&#xE1;c doanh nghi&#x1EC7;p quy m&#xF4; l&#x1EDB;n, &#x111;&#xF4;ng nh&#xE2;n vi&#xEA;n v&#xE0; nhi&#x1EC1;u chi nh&#xE1;nh, c&#x1EA7;n nhi&#x1EC1;u thi&#x1EBF;t b&#x1ECB; v&#x103;n ph&#xF2;ng nh&#x1B0; m&#xE1;y t&#xED;nh cho nh&#xE2;n vi&#xEA;n, m&#xE1;y in, v&#x103;n ph&#xF2;ng ph&#x1EA9;m, ... v&#xE0; c&#xF4;ng vi&#x1EC7;c c&#x1EE7;a nh&#xE2;n vi&#xEA;n v&#xE0; c&#x1EA3; vi&#x1EC7;c ph&#x1EE5;c v&#x1EE5; kh&#xE1;ch h&#xE0;ng c&#xF3; th&#x1EC3; b&#x1ECB; &#x1EA3;nh h&#x1B0;&#x1EDF;ng n&#x1EBF;u c&#xE1;c thi&#x1EBF;t b&#x1ECB; n&#xE0;y b&#x1ECB; ng&#x1B0;ng ho&#x1EA1;t &#x111;&#x1ED9;ng.</p>
+<p>V&#xED; d&#x1EE5;: m&#xE1;y in t&#x1EA1;i m&#x1ED9;t chi nh&#xE1;nh c&#x1EE7;a ng&#xE2;n h&#xE0;ng b&#x1ECB; ng&#x1B0;ng ho&#x1EA1;t &#x111;&#x1ED9;ng s&#x1EBD; &#x1EA3;nh h&#x1B0;&#x1EDF;ng vi&#x1EC7;c ph&#x1EE5;c v&#x1EE5; kh&#xE1;ch h&#xE0;ng.</p>
+<ul>
+<li>h&#xEC;nh minh ho&#x1EA1;</li>
+</ul>
+<p>Ch&#x1B0;a k&#x1EC3; ho&#x1EA1;t &#x111;&#x1ED9;ng s&#x1EED;a ch&#x1EEF;a c&#x169;ng &#x1EA3;nh h&#x1B0;&#x1EDF;ng t&#x1EDB;i ho&#x1EA1;t &#x111;&#x1ED9;ng v&#xE0; c&#x1EA3; kh&#xE1;ch h&#xE0;ng.<br>
+Vi&#x1EC7;c s&#x1EED;a ch&#x1EEF;a trong gi&#x1EDD; l&#xE0;m vi&#x1EC7;c cho m&#xE1;y l&#x1EA1;nh t&#x1EA1;i c&#x1ED5;ng ra v&#xE0;o chi nh&#xE1;nh ng&#xE2;n h&#xE0;ng, g&#xE2;y &#xE1;ch t&#x1EAF;c ra v&#xE0;o .</p>
+<ul>
+<li>h&#xEC;nh minh ho&#x1EA1;</li>
+</ul>
+<p>Khi s&#x1EF1; vi&#x1EC7;c x&#x1EA3;y ra, th&#xF4;ng th&#x1B0;&#x1EDD;ng nh&#xE2;n vi&#xEA;n t&#x1EA1;i chi nh&#xE1;nh s&#x1EBD; g&#x1ECD;i &#x111;i&#x1EC7;n th&#xF4;ng b&#xE1;o t&#x1EDB;i B&#x1ED9; ph&#x1EAD;n ph&#x1EE5; tr&#xE1;ch thi&#x1EBF;t b&#x1ECB; c&#x1EE7;a doanh nghi&#x1EC7;p (th&#x1B0;&#x1EDD;ng l&#xE0; B&#x1ED9; ph&#x1EAD;n IT). B&#x1ED9; ph&#x1EAD;n IT ti&#x1EBF;p nh&#x1EAD;n th&#xF4;ng tin, v&#xE0; &#x111;a ph&#x1EA7;n chuy&#x1EC3;n th&#xF4;ng tin t&#x1EDB;i Nh&#xE0; cung c&#x1EA5;p &#x111;&#x1EC3; c&#x1EED; &#x111;&#x1ED9;i k&#x1EF9; thu&#x1EAD;t t&#x1EDB;i t&#x1EAD;n n&#x1A1;i x&#x1EED; l&#xFD; v&#x1EA5;n &#x111;&#x1EC1;. Nh&#xE2;n vi&#xEA;n t&#x1EA1;i chi nh&#xE1;nh k&#xFD; x&#xE1;c nh&#x1EAD;n v&#xE0;o bi&#xEA;n b&#x1EA3;n ho&#xE0;n th&#xE0;nh c&#xF4;ng vi&#x1EC7;c. C&#xE1;c bi&#xEA;n b&#x1EA3;n n&#xE0;y s&#x1EBD; &#x111;&#x1B0;&#x1EE3;c t&#x1ED5;ng h&#x1EE3;p, th&#xF4;ng b&#xE1;o cho b&#x1ED9; ph&#x1EAD;n IT &#x111;&#x1EC3; &#x111;&#x1ED1;i chi&#x1EBF;u, nghi&#x1EC7;m thu. D&#x1EF1;a v&#xE0;o &#x111;&#xF3; Doanh nghi&#x1EC7;p thanh to&#xE1;n cho Nh&#xE0; cung c&#x1EA5;p.</p>
+<p>Quy tr&#xEC;nh tr&#xEA;n g&#xE2;y ra c&#xE1;c kh&#xF3; kh&#x103;n cho c&#xE1;c b&#xEA;n:</p>
+<ul>
+<li>
+<p>b&#x1ED9; ph&#x1EAD;n IT kh&#xF3; n&#x1EAF;m b&#x1EAF;t v&#x1EA5;n &#x111;&#x1EC1; khi nh&#xE2;n vi&#xEA;n chi nh&#xE1;nh ph&#x1EA3;n &#xE1;nh, t&#x1EEB; &#x111;&#xF3; kh&#xF3; x&#xE1;c &#x111;&#x1ECB;nh k&#x1EBF;t qu&#x1EA3; th&#x1EF1;c hi&#x1EC7;n</p>
+</li>
+<li>
+<p>b&#x1ED9; ph&#x1EAD;n IT l&#xE0;m ch&#x1EAD;m qu&#xE1; tr&#xEC;nh ti&#x1EBF;p nh&#x1EAD;n, x&#x1EED; l&#xFD; ph&#xE1;t sinh. Kh&#xF4;ng &#xED;t tr&#x1B0;&#x1EDD;ng h&#x1EE3;p s&#x1EBD; g&#xE2;y kh&#xF3; d&#x1EC5;, y&#xEA;u c&#x1EA7;u quy tr&#xEC;nh, nh&#x1EA5;t l&#xE0; c&#xE1;c y&#xEA;u c&#x1EA7;u ph&#xE1;t sinh chi ph&#xED; l&#x1EDB;n, y&#xEA;u c&#x1EA7;u &#x111;&#x1EB7;c th&#xF9;.</p>
+</li>
+<li>
+<p>c&#xF3; nhi&#x1EC1;u thi&#x1EBF;t b&#x1ECB;, v&#x1EA5;n &#x111;&#x1EC1; c&#x1EA7;n IT qu&#x1EA3;n l&#xFD;, khi&#x1EBF;n vi&#x1EC7;c h&#x1ED7; tr&#x1EE3;, ti&#x1EBF;p nh&#x1EAD;n th&#xF4;ng tin t&#x1EEB;</p>
+</li>
+</ul>
+<p>B&#x1ED9; ph&#x1EAD;n IT &#x111;ang qu&#x1EA3;n l&#xFD;, ch&#x1EE9; kh&#xF4;ng ph&#x1EA3;i gi&#xE1;m s&#xE1;t vi&#x1EC7;c.</p>
+<p>&#xC1;p d&#x1EE5;ng qrAssets, nh&#xE2;n vi&#xEA;n chi nh&#xE1;nh t&#x1EF1; qu&#x1EA3;n l&#xFD; y&#xEA;u c&#x1EA7;u ph&#xE1;t sinh, x&#xE1;c nh&#x1EAD;n k&#x1EBF;t qu&#x1EA3; c&#xF4;ng vi&#x1EC7;c c&#x1EE7;a B&#xEA;n cung c&#x1EA5;p. B&#x1ED9; ph&#x1EAD;n IT c&#xF3; vai tr&#xF2; gi&#xE1;m s&#xE1;t v&#xE0; x&#xE1;c nh&#x1EAD;n k&#x1EBF;t qu&#x1EA3; t&#x1ED5;ng h&#x1EE3;p.</p>
+<p>Tr&#x1B0;&#x1EDD;ng h&#x1EE3;p l&#xFD; t&#x1B0;&#x1EDF;ng, vi&#x1EC7;c ti&#x1EBF;p nh&#x1EAD;n ph&#x1EA3;n &#x1EA3;nh t&#x1EEB; chi nh&#xE1;nh s&#x1EBD; do &#x110;&#x1ED9;i h&#x1ED7; tr&#x1EE3; c&#x1EE7;a Nh&#xE0; cung c&#x1EA5;p th&#x1EF1;c hi&#x1EC7;n, s&#x1EBD; hi&#x1EC7;u qu&#x1EA3; h&#x1A1;n l&#xE0; th&#xF4;ng qua b&#x1ED9; ph&#x1EAD;n IT.</p>
+<p>Ngo&#xE0;i thi&#x1EBF;t b&#x1ECB;, vi&#x1EC7;c h&#x1ED7; tr&#x1EE3; c&#xE1;c ph&#x1EA7;n m&#x1EC1;m c&#x1EE7;a Doanh nghi&#x1EC7;p c&#x169;ng &#xE1;p d&#x1EE5;ng &#x111;&#x1B0;&#x1EE3;c qrAssets. trong t&#xEC;nh hu&#x1ED1;ng n&#xE0;y, m&#x1ED7;i t&#xE0;i kho&#x1EA3;n &#x111;&#x103;ng nh&#x1EAD;p ph&#x1EA7;n m&#x1EC1;m s&#x1EBD; d&#xE1;n Th&#x1EBB; &#x111;&#x1EC3; h&#x1ED7; tr&#x1EE3;.</p>
+<p>Nh&#xE2;n vi&#xEA;n khi g&#x1EB7;p v&#x1EA5;n &#x111;&#x1EC1; khi s&#x1EED; d&#x1EE5;ng, c&#xF3; th&#x1EC3; li&#xEA;n h&#x1EC7; v&#x1EDB;i b&#x1ED9; ph&#x1EAD;n IT &#x111;&#x1EC3; &#x111;&#x1B0;&#x1EE3;c h&#x1B0;&#x1EDB;ng d&#x1EAB;n, h&#x1ED7; tr&#x1EE3;. N&#x1EBF;u ph&#x1EA7;n m&#x1EC1;m l&#xE0; d&#x1ECB;ch v&#x1EE5; do 1 nh&#xE0; cung c&#x1EA5;p v&#x1EAD;n h&#xE0;nh, vi&#x1EC7;c h&#x1ED7; tr&#x1EE3; c&#xF3; th&#x1EC3; chuy&#x1EC3;n sang cho &#x111;&#x1ED9;i CSKH n&#xE0;y th&#x1EF1;c hi&#x1EC7;n.</p>
+<p>Gi&#x1EA3;i ph&#xE1;p qrAssets cho Nh&#xE0; cung c&#x1EA5;p: G&#xF3;i d&#x1ECB;ch v&#x1EE5; b&#x1EA3;o tr&#xEC; &#x111;&#x1ECB;nh k&#x1EF3;:</p>
+<ul>
+<li>
+<p>kh&#xF4;ng ch&#x1EC9; cho thi&#x1EBF;t b&#x1ECB; &#x111;ang cung c&#x1EA5;p, m&#xE0; c&#x1EA3; thi&#x1EBF;t b&#x1ECB; &#x111;ang c&#xF3; s&#x1EB5;n c&#x1EE7;a Doanh nghi&#x1EC7;p.</p>
+</li>
+<li>
+<p>h&#x1EE3;p t&#xE1;c gi&#x1EEF;a nhi&#x1EC1;u nh&#xE0; cung c&#x1EA5;p c&#xE1;c l&#x129;nh v&#x1EF1;c kh&#xE1;c &#x111;&#x1EC3; h&#xEC;nh th&#xE0;nh d&#x1ECB;ch v&#x1EE5; All-in-One cho doanh nghi&#x1EC7;p:</p>
+<ul>
+<li>m&#xE1;y t&#xED;nh, m&#xE1;y in m&#x1EF1;c in, m&#xE1;y l&#x1EA1;nh,....</li>
+<li>d&#x1ECB;ch v&#x1EE5; c&#xE0;i &#x111;&#x1EB7;t m&#xE1;y t&#xED;nh, v&#x1EC7; sinh m&#xE1;y l&#x1EA1;nh, thay th&#x1EBF; m&#x1EF1;c in,...</li>
+<li>g&#xF3;i b&#x1EA3;o tr&#xEC; n&#xE2;ng cao: l&#xE0;m vi&#x1EC7;c ngo&#xE0;i gi&#x1EDD; h&#xE0;nh ch&#xED;nh, &#x111;&#xFA;ng gi&#x1EDD;, &#x111;&#x1ED9;i IT ri&#xEA;ng theo doanh nghi&#x1EC7;p, ...</li>
+</ul>
+</li>
+<li>
+<p>nh&#x1EAD;n c&#xE1;c g&#xF3;i th&#x1EA7;u l&#x1EDB;n c&#x1EE7;a doanh nghi&#x1EC7;p</p>
+</li>
+</ul>
+<p>Gi&#x1EA3;i ph&#xE1;p qrAssets cho Doanh nghi&#x1EC7;p l&#x1EDB;n: mu&#x1ED1;n ch&#x1EE7; &#x111;&#x1ED9;ng qu&#x1EA3;n l&#xFD; t&#xE0;i s&#x1EA3;n, b&#x1EA3;o m&#x1EAD;t th&#xF4;ng tin, ch&#x1EE7; &#x111;&#x1ED9;ng ch&#x1ECD;n nh&#xE0; cung c&#x1EA5;p.</p>
+<ul>
+<li>
+<p>thi&#x1EBF;t b&#x1ECB; chuy&#xEA;n d&#x1EE5;ng, t&#x1EEB; v&#xE0;i nh&#xE0; cung c&#x1EA5;p</p>
+</li>
+<li>
+<p>&#x111;&#x1ED9;i b&#x1EA3;o tr&#xEC; n&#x1ED9;i b&#x1ED9; &#x111;&#x1EC3; gi&#x1EA3;m chi ph&#xED;</p>
+</li>
+<li>
+<p>b&#x1ED5; sung, n&#xE2;ng cao hi&#x1EC7;u qu&#x1EA3; s&#x1EED; d&#x1EE5;ng ph&#x1EA7;n m&#x1EC1;m qu&#x1EA3;n l&#xFD; thi&#x1EBF;t b&#x1ECB;, t&#xE0;i s&#x1EA3;n:<br>
+<a href="https://www.thegioididong.com/game-app/top-9-phan-mem-quan-ly-bao-tri-thiet-bi-mien-phi-tot-1366713">https://www.thegioididong.com/game-app/top-9-phan-mem-quan-ly-bao-tri-thiet-bi-mien-phi-tot-1366713</a></p>
+</li>
+</ul>
+<p>B&#x1ED9; ph&#x1EAD;n IT &#x111;&#xF3;ng vai tr&#xF2; gi&#xE1;m s&#xE1;t h&#xE0;ng ng&#xE0;y &#x111;&#x1EC3; ph&#xE1;t hi&#x1EC7;n s&#x1EDB;m nh&#x1EEF;ng ti&#xEA;u c&#x1EF1;c t&#x1EEB; Nh&#xE0; cung c&#x1EA5;p v&#xE0; c&#x1EA3; nh&#xE2;n vi&#xEA;n t&#x1EA1;i chi nh&#xE1;nh.</p>
+<p>V&#x1EDB;i qrAssets, Nh&#xE0; cung c&#x1EA5;p t&#x1EA1;o kh&#xE1;c bi&#x1EC7;t v&#x1EDB;i &#x111;&#x1ED1;i th&#x1EE7; b&#x1EB1;ng c&#xE1;ch cung c&#x1EA5;p G&#xF3;i d&#x1ECB;ch v&#x1EE5; ch&#x1EA5;t l&#x1B0;&#x1EE3;ng, uy t&#xED;n cho Doanh nghi&#x1EC7;p v&#x1EDB;i chi ph&#xED; th&#x1EA5;p.</p>
+<ul>
+<li>Kh&#xF4;ng c&#x1EA7;n l&#xE0; b&#xEA;n b&#xE1;n thi&#x1EBF;t b&#x1ECB;, nh&#xE0; cung c&#x1EA5;p c&#xF3; th&#x1EC3; cung c&#x1EA5;p c&#xE1;c d&#x1ECB;ch v&#x1EE5; tr&#xEA;n.</li>
+</ul>
+<p>C&#xE1;c thi&#x1EBF;t b&#x1ECB; m&#x1EDB;i sau n&#xE0;y, nh&#xE0; cung c&#x1EA5;p c&#xF3; c&#x1A1; h&#x1ED9;i cung c&#x1EA5;p.</p>
+<p>Khi thi&#x1EBF;t b&#x1ECB; b&#x1ECB; ng&#x1B0;ng, ho&#x1EB7;c ho&#x1EA1;t &#x111;&#x1ED9;ng kh&#xF4;ng t&#x1ED1;t &#x1EA3;nh h&#x1B0;&#x1EDF;ng t&#x1EDB;i k&#x1EBF;t qu&#x1EA3; c&#xF4;ng vi&#x1EC7;c, nh&#xE2;n vi&#xEA;n s&#x1EBD; ch&#x1EE7; &#x111;&#x1ED9;ng ph&#x1EA3;n &#xE1;nh v&#x1EA5;n &#x111;&#x1EC1; m&#x1ED9;t c&#xE1;ch tr&#x1EF1;c quan b&#x1EB1;ng h&#xEC;nh &#x1EA3;nh, video th&#x1EF1;c t&#x1EBF;.<br>
+Kh&#xE1;c bi&#x1EC7;t c&#x1EE7;a qrAssets so v&#x1EDB;i c&#xE1;c gi&#x1EA3;i ph&#xE1;p kh&#xE1;c, l&#xE0; nh&#xE0; cung c&#x1EA5;p c&#x169;ng nh&#x1EAD;n &#x111;&#x1B0;&#x1EE3;c ph&#x1EA3;n &#xE1;nh n&#xE0;y (n&#x1EBF;u &#x111;&#x1B0;&#x1EE3;c Doanh nghi&#x1EC7;p c&#x1EA5;p quy&#x1EC1;n) &#x111;&#x1EC3; bi&#x1EBF;t th&#xF4;ng tin v&#xE0; c&#x1EED; &#x111;&#x1ED9;i k&#x1EF9; thu&#x1EAD;t l&#xE0;m vi&#x1EC7;c tr&#x1EF1;c ti&#x1EBF;p v&#x1EDB;i nh&#xE2;n vi&#xEA;n, l&#x1EF1;a ch&#x1ECD;n khung gi&#x1EDD; ph&#x1EE5;c v&#x1EE5; ph&#xF9; h&#x1EE3;p &#x111;&#x1EC3; x&#x1EED; l&#xFD; s&#x1EDB;m nh&#x1EA5;t.</p>
+<p>Doanh nghi&#x1EC7;p c&#xF3; th&#x1EC3; l&#x1EF1;a ch&#x1ECD;n nh&#x1EEF;ng G&#xF3;i b&#x1EA3;o tr&#xEC;, v&#x1EC7; sinh &#x111;&#x1ECB;nh k&#x1EF3; t&#x1EEB; nh&#xE0; cung c&#x1EA5;p &#x111;&#x1EC3; h&#x1EA1;n ch&#x1EBF; t&#xEC;nh tr&#x1EA1;ng ng&#x1B0;ng ho&#x1EA1;t &#x111;&#x1ED9;ng c&#x1EE7;a thi&#x1EBF;t b&#x1ECB;, v&#xE0; gi&#xE1;m s&#xE1;t &#x111;&#x1B0;&#x1EE3;c c&#xF4;ng vi&#x1EC7;c th&#x1EF1;c hi&#x1EC7;n, x&#xE1;c nh&#x1EAD;n c&#xF4;ng vi&#x1EC7;c c&#x1EE7;a nh&#xE2;n vi&#xEA;n chi nh&#xE1;nh.</p>
+<p>Nh&#xE0; cung c&#x1EA5;p d&#x1ECB;ch v&#x1EE5; cho Doanh nghi&#x1EC7;p, th&#xF4;ng qua gi&#x1EA3;i ph&#xE1;p qrAssets, &#x111;&#x1B0;a ra c&#xE1;c d&#x1ECB;ch v&#x1EE5; b&#x1EA3;o tr&#xEC;, v&#x1EC7; sinh &#x111;&#x1ECB;nh k&#x1EF3; &#x111;&#x1EC3; h&#x1EA1;n ch&#x1EBF; t&#xEC;nh tr&#x1EA1;ng thi&#x1EBF;t b&#x1ECB; ng&#x1B0;ng ho&#x1EA1;t &#x111;&#x1ED9;ng.</p>
+<p>B&#x1ED9; ph&#x1EAD;n h&#x1ED7; tr&#x1EE3; (c&#x1EE7;a doanh nghi&#x1EC7;p v&#xE0; c&#x1EA3; nh&#xE0; cung c&#x1EA5;p) s&#x1EBD; ti&#x1EBF;p nh&#x1EAD;n ph&#x1EA3;n &#xE1;nh v&#xE0; ti&#x1EBF;n h&#xE0;nh li&#xEA;n h&#x1EC7; tr&#x1EF1;c ti&#x1EBF;p v&#x1EDB;i nh&#xE2;n vi&#xEA;n &#x111;&#x1EC3; x&#x1EED; l&#xFD; s&#x1EDB;m nh&#x1EA5;t.</p>
+<p>gi&#x1EA3;i ph&#xE1;p gi&#xE1;m s&#xE1;t vi&#x1EC7;c h&#x1ED7; tr&#x1EE3; nh&#xE2;n vi&#xEA;n trong qu&#xE1; tr&#xEC;nh s&#x1EED; d&#x1EE5;ng t&#xE0;i s&#x1EA3;n c&#x1EE7;a doanh nghi&#x1EC7;p</p>
+<ul>
+<li>kh&#xE1;c bi&#x1EC7;t v&#x1EDB;i ph&#x1EA7;n m&#x1EC1;m qu&#x1EA3;n l&#xFD; t&#xE0;i s&#x1EA3;n</li>
+<li>ki&#x1EC3;m k&#xEA; t&#xE0;i s&#x1EA3;n</li>
+<li>gi&#xE1;m s&#xE1;t chi ph&#xED; ho&#x1EA1;t &#x111;&#x1ED9;ng, ph&#xE1;t sinh trong qu&#xE1; tr&#xEC;nh s&#x1EED; d&#x1EE5;ng</li>
+<li>gi&#xE1;m s&#xE1;t y&#xEA;u c&#x1EA7;u n&#xE2;ng c&#x1EA5;p c&#x1EE7;a nh&#xE2;n vi&#xEA;n.</li>
+<li>employeeCard: th&#x1EBB; nh&#xE2;n vi&#xEA;n</li>
+</ul>
+<p>qrProducts: gi&#x1EA3;i ph&#xE1;p gi&#xE1;m s&#xE1;t vi&#x1EC7;c ph&#x1EE5;c v&#x1EE5; kh&#xE1;ch h&#xE0;ng trong qu&#xE1; tr&#xEC;nh s&#x1EED; d&#x1EE5;ng s&#x1EA3;n ph&#x1EA9;m c&#x1EE7;a doanh nghi&#x1EC7;p</p>
+<ul>
+<li>EXIST_DEVICE: s&#x1EA3;n ph&#x1EA9;m &#x111;ang &#x111;&#x1B0;&#x1EE3;c s&#x1EED; d&#x1EE5;ng, ....</li>
+<li>SELL_PRODUCT: s&#x1EA3;n ph&#x1EA9;m v&#x1EAD;n chuy&#x1EC3;n trong m&#x1EA1;ng l&#x1B0;&#x1EDB;i ph&#xE2;n ph&#x1ED1;i : &#x111;&#x1EB7;t h&#xE0;ng, giao h&#xE0;ng, nh&#x1EAD;p kho,...</li>
+<li>qrDistribution: gi&#xE1;m s&#xE1;t k&#xEA;nh ph&#xE2;n ph&#x1ED1;i, b&#xE1;n h&#xE0;ng.  c&#xF4;ng c&#x1EE5; &quot;chuy&#x1EC3;n &#x111;&#x1ED5;i s&#x1ED1;&quot; cho &#x111;&#x1EA1;i l&#xFD; ph&#xE2;n ph&#x1ED1;i, &#x111;&#x1EC3; n&#xE2;ng cao hi&#x1EC7;u qu&#x1EA3; b&#xE1;n h&#xE0;ng, ph&#x1EE5;c v&#x1EE5; kh&#xE1;ch h&#xE0;ng</li>
+</ul>
+<h3 class="mume-header" id="nh%C3%A0-cung-c%E1%BA%A5p-supplier">Nh&#xE0; cung c&#x1EA5;p (Supplier)</h3>
+
+<p>B&#xEA;n D&#x1ECB;ch v&#x1EE5; cho thi&#x1EBF;t b&#x1ECB; &#x111;ang s&#x1EED; d&#x1EE5;ng</p>
+<ul>
+<li>
+<p>v&#x1EC7; sinh, b&#x1EA3;o tr&#xEC; m&#xE1;y l&#x1EA1;nh, gia d&#x1EE5;ng</p>
+</li>
+<li>
+<p>m&#xE1;y t&#xED;nh, v&#x103;n ph&#xF2;ng</p>
+</li>
+</ul>
+<p>B&#xEA;n Cung c&#x1EA5;p s&#x1EA3;n ph&#x1EA9;m, thi&#x1EBF;t b&#x1ECB; cho doanh nghi&#x1EC7;p k&#xE8;m theo d&#x1ECB;ch v&#x1EE5; b&#x1EA3;o tr&#xEC; b&#x1EA3;o h&#xE0;nh</p>
+<ul>
+<li>
+<p>b&#xE1;n theo d&#x1EF1; &#xE1;n, d&#x1ECB;ch v&#x1EE5; b&#x1EA3;o tr&#xEC;</p>
+</li>
+<li>
+<p>b&#xE1;n l&#x1EBB;</p>
+</li>
+</ul>
+<p>A4 theo d&#x1EF1; &#xE1;n:</p>
+<ul>
+<li>
+<p>H&#x1EE3;p &#x111;&#x1ED3;ng mua b&#xE1;n theo d&#x1EF1; &#xE1;n, gi&#x1EEF;a Nh&#xE0; cung c&#x1EA5;p (Supplier) v&#xE0; kh&#xE1;ch h&#xE0;ng l&#xE0; Doanh nghi&#x1EC7;p. Bao g&#x1ED3;m<br>
+danh s&#xE1;ch thi&#x1EBF;t b&#x1ECB; v&#xE0; d&#x1ECB;ch v&#x1EE5; b&#x1EA3;o tr&#xEC;, b&#x1EA3;o h&#xE0;nh k&#xE8;m theo (th&#x1B0;&#x1EDD;ng l&#xE0; mi&#x1EC5;n ph&#xED;).</p>
+</li>
+<li>
+<p>Th&#x1EBB; do Supplier ph&#xE1;t h&#xE0;nh</p>
+</li>
+<li>
+<p>Th&#xF4;ng tin kh&#xE1;ch h&#xE0;ng tr&#xEA;n b&#x1ED9; Th&#x1EBB; &#x111;&#x1B0;&#x1EE3;c thi&#x1EBF;t l&#x1EAD;p (OwnerOrganizationId).</p>
+</li>
+<li>
+<p>c&#xF3; th&#x1EC3; ph&#xE1;t h&#xE0;nh th&#xEA;m Th&#x1EBB; , d&#x1B0;&#x1EDB;i d&#x1EA1;ng in s&#x1EB5;n ho&#x1EB7;c theo pdf</p>
+</li>
+<li>
+<p>B&#x1ED9; A4 t&#x1ED1;i thi&#x1EC3;u 100 th&#x1EBB;: 1 tri&#x1EC7;u, c&#xE1;c th&#x1EBB; th&#xEA;m PDF t&#x1EF1; in (2000k/ th&#x1EBB;).</p>
+</li>
+<li>
+<p>T&#xED;nh n&#x103;ng:</p>
+<ul>
+<li>AdminCP cho Kh&#xE1;ch h&#xE0;ng (OwnerOrganization) &#x111;&#x1EC3; qu&#x1EA3;n l&#xFD; giao d&#x1ECB;ch b&#x1EA3;o tr&#xEC;, truy c&#x1EAD;p b&#x1EB1;ng 1 Th&#x1EBB; qrOrganization</li>
+<li>AdminCP theo kh&#xE1;ch h&#xE0;ng Doanh nghi&#x1EC7;p cho Supplier</li>
+</ul>
+</li>
+</ul>
+<p>Key Features</p>
+<p>qrCall: t&#x1ED5;ng &#x111;&#xE0;i g&#x1ECD;i l&#x1EA1;i ho&#x1EB7;c video call</p>
+<ul>
+<li>t&#x1ED5;ng &#x111;&#xE0;i g&#x1ECD;i l&#x1EA1;i: internet kh&#xF4;ng &#x111;&#x1EA3;m b&#x1EA3;o, v&#xF9;ng kh&#xF4;ng c&#xF3; internet, c&#x1EA7;n cu&#x1ED9;c g&#x1ECD;i ch&#x1EA5;t l&#x1B0;&#x1EE3;ng</li>
+<li>audio call: kh&#xE1;ch h&#xE0;ng kh&#xF4;ng mu&#x1ED1;n video call</li>
+<li>video call (webrtc)</li>
+</ul>
+<p>qrRequest:</p>
+<ul>
+<li>text h&#xEC;nh &#x1EA3;nh</li>
+<li>audio : &#x111;&#x1EC3; l&#x1EA1;i l&#x1EDD;i nh&#x1EAF;n &#x111;&#x1EC3; g&#x1ECD;i l&#x1EA1;i</li>
+</ul>
+<p>scanToVerify: x&#xE1;c th&#x1EF1;c b&#x1EB1;ng qu&#xE9;t Th&#x1EBB;</p>
+<ul>
+<li>qrLogin: qu&#xE9;t th&#x1EBB; &#x111;&#x1EC3; &#x111;&#x103;ng nh&#x1EAD;p</li>
+<li>qrCheckin: qu&#xE9;t th&#x1EBB; &#x111;&#x1EC3; checkin t&#x1EA1;i c&#xE1;c &#x111;i&#x1EC3;m checkpoint</li>
+</ul>
+<p>(Customers | Device | Product ) Lifecycle: v&#xF2;ng &#x111;&#x1EDD;i</p>
+<p>Push Notification (web/ app)</p>
+<ul>
+<li>add Card v&#xE0;o danh b&#x1EA1;.</li>
+</ul>
+<p>qrCare l&#xE0; gi&#x1EA3;i ph&#xE1;p gi&#xE1;m s&#xE1;t, kh&#xF4;ng ph&#x1EA3;i l&#xE0; h&#x1EC7; th&#x1ED1;ng qu&#x1EA3;n l&#xFD;:</p>
+<ul>
+<li>
+<p>gi&#xE1;m s&#xE1;t c&#xF3; th&#x1EC3; &#xE1;p d&#x1EE5;ng t&#x1EDB;i h&#xE0;ng ng&#xE0;n &#x111;&#x1ED1;i t&#x1B0;&#x1EE3;ng m&#xE0; v&#x1EAB;n b&#x1EA3;o &#x111;&#x1EA3;m hi&#x1EC7;u qu&#x1EA3;</p>
+</li>
+<li>
+<p>qu&#x1EA3;n l&#xFD; ch&#x1EC9; gi&#x1EDB;i h&#x1EA1;n trong v&#xE0;i ch&#x1EE5;c, v&#xE0;i tr&#x103;m &#x111;&#x1ED1;i t&#x1B0;&#x1EE3;ng</p>
+</li>
+<li>
+<p>gi&#xE1;m s&#xE1;t c&#xF3; th&#x1EC3; &#xE1;p d&#x1EE5;ng cho ng&#x1B0;&#x1EDD;i ngo&#xE0;i, qu&#x1EA3;n l&#xFD; c&#x1EA7;n ng&#x1B0;&#x1EDD;i b&#xEA;n trong, nhi&#x1EC1;u b&#x1B0;&#x1EDB;c x&#xE1;c th&#x1EF1;c.</p>
+</li>
+<li>
+<p>gi&#xE1;m s&#xE1;t n&#xE2;ng cao hi&#x1EC7;u qu&#x1EA3; c&#x1EE7;a ng&#x1B0;&#x1EDD;i th&#x1EF1;c hi&#x1EC7;n trong d&#xE0;i h&#x1EA1;n. Ho&#x1EB7;c ph&#xE1;t hi&#x1EC7;n c&#xE1;c c&#xE1; nh&#xE2;n k&#xE9;m hi&#x1EC7;u qu&#x1EA3; &#x111;&#x1EC3;<br>
+&#x111;&#xE0;o t&#x1EA1;o ho&#x1EB7;c lo&#x1EA1;i b&#x1ECF;</p>
+</li>
+</ul>
+<p>qrCare l&#xE0; h&#x1EC7; th&#x1ED1;ng t&#x1EA1;o ra s&#x1EF1; minh b&#x1EA1;ch, ki&#x1EC3;m so&#xE1;t ch&#xE9;o gi&#x1EEF;a c&#xE1;c b&#xEA;n. T&#x1EEB; &#x111;&#xF3; h&#xEC;nh th&#xE0;nh h&#x1EC7; th&#x1ED1;ng gi&#xE1;m s&#xE1;t,<br>
+t&#x103;ng hi&#x1EC7;u qu&#x1EA3; v&#x1EC1; d&#xE0;i h&#x1EA1;n.</p>
+<p>T&#x1EA1;i sao doanh nghi&#x1EC7;p c&#x1EA7;n chuy&#x1EC3;n &#x111;&#x1ED5;i s&#x1ED1;?</p>
+<ol>
+<li>Th&#x1EF1;c t&#x1EBF; X&#xE3; h&#x1ED9;i sau covid &#x111;&#xF2;i h&#x1ECF;i &quot;T&#x1B0;&#x1A1;ng t&#xE1;c s&#x1ED1;&quot;</li>
+</ol>
+<ul>
+<li>gi&#x1EEF;a doanh nghi&#x1EC7;p v&#xE0; kh&#xE1;ch h&#xE0;ng, doanh nghi&#x1EC7;p v&#xE0; nh&#xE2;n vi&#xEA;n</li>
+<li>t&#x1B0;&#x1A1;ng t&#xE1;c kh&#xF4;ng ch&#x1EA1;m khi thanh to&#xE1;n</li>
+<li></li>
+</ul>
+<ol start="2">
+<li>Nhi&#x1EC1;u qu&#x1ED1;c gia &#x111;&#x1EA9;y nhanh ti&#x1EBF;n tr&#xEC;nh &quot;chuy&#x1EC3;n &#x111;&#x1ED5;i s&#x1ED1;&quot;</li>
+</ol>
+<ul>
+<li>giai &#x111;o&#x1EA1;n chuy&#x1EC3;n &#x111;&#x1ED5;i h&#x1EA1; t&#x1EA7;ng &#x111;&#xE3; s&#x1EB5;n s&#xE0;ng: 5G, smartphone,...</li>
+<li></li>
+</ul>
+<p>M&#x1EE5;c ti&#xEA;u c&#x1EE7;a Chuy&#x1EC3;n &#x111;&#x1ED5;i s&#x1ED1; l&#xE0; g&#xEC;? C&#xF3; nhi&#x1EC1;u m&#x1EE5;c ti&#xEA;u</p>
+<ul>
+<li>
+<p>Ph&#xE1;t tri&#x1EC3;n b&#x1EC1;n v&#x1EEF;ng:</p>
+</li>
+<li>
+<p>t&#x1EAD;p trung v&#xE0;o kh&#xE1;ch h&#xE0;ng th&#x1B0;&#x1EDD;ng xuy&#xEA;n</p>
+</li>
+<li>
+<p>quan t&#xE2;m t&#x1EDB;i hi&#x1EC7;u qu&#x1EA3; (thay v&#xEC; hi&#x1EC7;u su&#x1EA5;t) c&#x1EE7;a nh&#xE2;n vi&#xEA;n</p>
+</li>
+<li>
+<p><a href="http://qrcare.vn">qrcare.vn</a> k&#x1EBF;t h&#x1EE3;p m&#xF4; h&#xEC;nh nh&#xE2;n vi&#xEA;n v&#xE0; c&#x1ED9;ng t&#xE1;c vi&#xEA;n trong ph&#x1EE5;c v&#x1EE5; kh&#xE1;ch h&#xE0;ng</p>
+</li>
+<li>
+<p>m&#x1EB7;t tr&#xE1;i c&#x1EE7;a th&#x1B0;&#x1A1;ng m&#x1EA1;i &#x111;i&#x1EC7;n t&#x1EED;:</p>
+<ul>
+<li>nghi&#x1EC7;n mua s&#x1EAF;m, chi ti&#xEA;u,</li>
+<li>mua nh&#x1B0;ng &#xED;t s&#x1EED; d&#x1EE5;ng, (d&#xF9;ng v&#xE0;i l&#x1EA7;n r&#x1ED3;i b&#x1ECF;), suy gi&#x1EA3;m l&#xF2;ng tin c&#x1EE7;a kh&#xE1;ch h&#xE0;ng, th&#xF3;i quen mua 1 l&#x1EA7;n</li>
+<li>flash sale: thu h&#xFA;t kh&#xE1;ch h&#xE0;ng m&#x1EDB;i =&gt; kh&#xE1;ch h&#xE0;ng 1 l&#x1EA7;n c&#x1EE7;a doanh nghi&#x1EC7;p</li>
+</ul>
+</li>
+<li>
+<p>n&#xE2;ng cao ni&#x1EC1;m tin + d&#x1ECB;ch v&#x1EE5; kh&#xE1;ch h&#xE0;ng</p>
+</li>
+</ul>
+<p>Qu&#xE1; tr&#xEC;nh &quot;Chuy&#x1EC3;n &#x111;&#x1ED5;i s&#x1ED1;&quot; do QRCare &#x111;&#x1EC1; xu&#x1EA5;t:</p>
+<p>Chuy&#x1EC3;n &#x111;&#x1ED5;i s&#x1ED1; cho con ng&#x1B0;&#x1EDD;i, s&#x1EA3;n ph&#x1EA9;m (h&#xE0;ng ho&#xE1;) v&#xE0; th&#xE1;i &#x111;&#x1ED9; ph&#x1EE5;c v&#x1EE5;. Kh&#xE1;ch h&#xE0;ng t&#x1B0;&#x1A1;ng t&#xE1;c v&#x1EDB;i doanh nghi&#x1EC7;p khi c&#x1EA7;n<br>
+th&#xF4;ng qua c&#xE1;c k&#xEA;nh t&#x1B0;&#x1A1;ng t&#xE1;c s&#x1ED1;.</p>
+<ul>
+<li>
+<p>T&#x1EEB; kh&#xE1;ch h&#xE0;ng: c&#x1EA7;n chuy&#x1EC3;n &#x111;&#x1ED5;i s&#x1ED1;, m&#x1ED7;i kh&#xE1;ch h&#xE0;ng l&#xE0; 1 th&#xE0;nh vi&#xEA;n s&#x1ED1;</p>
+<ul>
+<li>qrMember tr&#x1EA3;i nghi&#x1EC7;m s&#x1ED1; cho t&#x1EDD; r&#x1A1;i, namecards, m&#xE3; qrcode tr&#x1ECF; v&#x1EC1; website,...</li>
+<li>qrLoyalty nh&#x1EB1;m n&#xE2;ng cao tr&#x1EA3;i nghi&#x1EC7;m cho customer app, t&#xE0;i kho&#x1EA3;n &#x111;&#x103;ng nh&#x1EAD;p website,...</li>
+</ul>
+</li>
+<li>
+<p>&#x111;&#x1ED9;i ng&#x169; t&#x1B0;&#x1A1;ng t&#xE1;c v&#x1EDB;i kh&#xE1;ch h&#xE0;ng:  Sale ph&#x1EE5; tr&#xE1;ch, Shipper,...</p>
+</li>
+<li>
+<p>m&#x1EA1;ng l&#x1B0;&#x1EDB;i ph&#xE2;n ph&#x1ED1;i, b&#xE1;n h&#xE0;ng : c&#xE1;c t&#x1B0;&#x1A1;ng t&#xE1;c &#x111;&#x1B0;&#x1EE3;c &quot;chuy&#x1EC3;n &#x111;&#x1ED5;i s&#x1ED1;&quot;</p>
+</li>
+<li>
+<p>quy tr&#xEC;nh v&#x1EAD;n h&#xE0;nh gi&#x1EEF;a c&#xE1;c Ph&#xF2;ng ban c&#x1EE7;a doanh nghi&#x1EC7;p</p>
+<ul>
+<li>kho, b&#xE1;n h&#xE0;ng, &#x111;&#x1ED9;i ng&#x169; v&#x103;n ph&#xF2;ng, ...</li>
+</ul>
+</li>
+<li>
+<p>Chuy&#x1EC3;n &#x111;&#x1ED5;i s&#x1ED1; K&#xEA;nh ch&#x103;m s&#xF3;c kh&#xE1;ch h&#xE0;ng &#x111;&#x1B0;&#x1EE3;c &quot;chuy&#x1EC3;n &#x111;&#x1ED5;i</p>
+</li>
+<li></li>
+<li>
+<p>M&#x1ED7;i kh&#xE1;ch h&#xE0;ng l&#xE0; &#x111;&#x1B0;&#x1EE3;c ph&#x1EE5;c v&#x1EE5; nh&#x1B0; 1 th&#xE0;nh vi&#xEA;n th&#xF4;ng qua k&#xEA;nh ch&#x103;m s&#xF3;c s&#x1ED1;</p>
+<ul>
+<li>qrMember: kh&#xE1;c</li>
+</ul>
+</li>
+<li>
+<p>t&#x1B0;&#x1A1;ng t&#xE1;c s&#x1ED1; v&#x1EDB;i kh&#xE1;ch h&#xE0;ng b&#xEA;n c&#x1EA1;nh c&#xE1;c c&#xE1;ch hi&#x1EC7;n c&#xF3;</p>
+<ul>
+<li>g&#x1ECD;i t&#x1ED5;ng &#x111;&#xE0;i</li>
+<li>g&#x1EED;i email, g&#x1ECD;i &#x111;i&#x1EC7;n spam,</li>
+<li></li>
+</ul>
+</li>
+</ul>
+<p>Gi&#xE1; tr&#x1ECB; c&#x1EE7;a QRCare b&#x1EB1;ng card v&#xE0; qrCall :</p>
+<ul>
+<li>
+<p>qrCard: v&#xF2;ng &#x111;&#x1EDD;i t&#x1B0;&#x1A1;ng t&#xE1;c 1-1 gi&#x1EEF;a doanh nghi&#x1EC7;p v&#xE0; 1 kh&#xE1;ch h&#xE0;ng</p>
+</li>
+<li>
+<p>qrCall k&#xEA;nh t&#x1B0;&#x1A1;ng t&#xE1;c, ch&#x103;m s&#xF3;c tr&#x1EF1;c ti&#x1EBF;p</p>
+</li>
+<li>
+<p>t&#x1B0;&#x1A1;ng t&#xE1;c 1-1 gi&#x1EEF;a nh&#xE2;n vi&#xEA;n v&#xE0; kh&#xE1;ch h&#xE0;ng trong 1 th&#x1EDD;i gian d&#xE0;i (ch&#x103;m s&#xF3;c kh&#xE1;ch h&#xE0;ng tr&#x1ECD;n &#x111;&#x1EDD;i, quy&#x1EC1;n l&#x1EE3;i tr&#x1ECD;n &#x111;&#x1EDD;i)</p>
+</li>
+<li>
+<p>x&#xE1;c th&#x1EF1;c nh&#xE2;n vi&#xEA;n</p>
+</li>
+<li>
+<p>k&#x1EBF;t n&#x1ED1;i gi&#x1EEF;a kh&#xE1;ch h&#xE0;ng v&#xE0; doanh nghi&#x1EC7;p (th&#x1B0;&#x1A1;ng hi&#x1EC7;u)</p>
+</li>
+</ul>
+<p>C&#x1ED9;ng t&#xE1;c vi&#xEA;n s&#x1EBD; &#x111;em l&#x1EA1;i firstOrders<br>
+Nh&#xE2;n vi&#xEA;n s&#x1EBD; t&#x1EA1;o n&#xEA;n nextOrders</p>
+<ul>
+<li>Qu&#x1EA3;ng b&#xE1; c&#xE1;c gi&#x1EA3;i ph&#xE1;p, d&#x1EF1; &#xE1;n ti&#xEA;u bi&#x1EC3;u &#x111;&#xE3; th&#x1EF1;c hi&#x1EC7;n</li>
+<li>l&#x1ED3;ng gh&#xE9;p v&#x1EDB;i n&#x1EC1;n t&#x1EA3;ng <a href="http://qrcare.vn">qrcare.vn</a></li>
+</ul>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
