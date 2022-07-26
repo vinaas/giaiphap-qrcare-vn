@@ -17,21 +17,6 @@ https://www.qrcare.vn/s/100010010880002/i/3/p/800
 https://www.qrcare.vn/s-edit/100010010880002/p/54662274
 ```
 
-iCard - user-guide
-```json
-https://www.qrcare.vn/s/100010010880004/i/1/p/104
-https://www.qrcare.vn/s/100010010880004/i/2/p/438
-https://www.qrcare.vn/s/100010010880004/i/3/p/247
-https://www.qrcare.vn/s-edit/100010010880004/p/16796602
-```
-iCard - Best Practics 
-```json 
-https://www.qrcare.vn/s/100010010880005/i/1/p/427
-https://www.qrcare.vn/s/100010010880005/i/2/p/951
-https://www.qrcare.vn/s/100010010880005/i/3/p/812
-https://www.qrcare.vn/s-edit/100010010880005/p/17732658
-```
-
 ### iShop 
 #### Tổng quan về iShop
 
@@ -44,53 +29,126 @@ https://www.qrcare.vn/s/100010010880003/i/3/p/231
 https://www.qrcare.vn/s-edit/100010010880003/p/12373842
 ```
 
-iShop - userGuide - Hướng dẫn sử dụng 
+### iShop - Best Practives
+Ngành nghề sử dụng 
+```json
+https://www.qrcare.vn/s/100010010880004/i/1/p/104
+https://www.qrcare.vn/s/100010010880004/i/2/p/438
+https://www.qrcare.vn/s/100010010880004/i/3/p/247
+https://www.qrcare.vn/s-edit/100010010880004/p/16796602
+```
+
+
+
+### iSHOP - Khách hàng tiêu biểu 
+```json 
+https://www.qrcare.vn/s/100010010880005/i/1/p/427
+https://www.qrcare.vn/s/100010010880005/i/2/p/951
+https://www.qrcare.vn/s/100010010880005/i/3/p/812
+https://www.qrcare.vn/s-edit/100010010880005/p/17732658
+```
+
+
+### iShop - userGuide - Hướng dẫn sử dụng 
 ```json
 https://www.qrcare.vn/s/100010010880006/i/1/p/362
 https://www.qrcare.vn/s/100010010880006/i/2/p/407
 https://www.qrcare.vn/s/100010010880006/i/3/p/419
 https://www.qrcare.vn/s-edit/100010010880006/p/19842607
 ```
-iShop- Best Practices 
-```json 
+
+### iSHOP - Tìm Nhà phân phối 
+```JSON 
 https://www.qrcare.vn/s/100010010880007/i/1/p/464
 https://www.qrcare.vn/s/100010010880007/i/2/p/369
 https://www.qrcare.vn/s/100010010880007/i/3/p/333
 https://www.qrcare.vn/s-edit/100010010880007/p/51936175
+
+đã cũ, cần chuyển Tìm Nhà phân phối  
+https://www.qrcare.vn/s/100010010880033/i/2/p/119
+https://www.qrcare.vn/s-edit/100010010880033/p/30697004
 ```
 
-iCard- Distribution Network (Mang luoi phan phoi)
-```json
+### iShop - Tuyển dụng
+```json 
 https://www.qrcare.vn/s/100010010880008/i/1/p/190
 https://www.qrcare.vn/s/100010010880008/i/2/p/376
 https://www.qrcare.vn/s/100010010880008/i/3/p/147
 https://www.qrcare.vn/s-edit/100010010880008/p/32982816
 ``` 
 
-iShop - Distribution Network (Mang luoi phan phoi)
+### iShop - Distribution Network (Mang luoi phan phoi)
 ```json 
 https://www.qrcare.vn/s/100010010880009/i/1/p/153
 https://www.qrcare.vn/s/100010010880009/i/2/p/370
 https://www.qrcare.vn/s/100010010880009/i/3/p/401
 https://www.qrcare.vn/s-edit/100010010880009/p/21638467
-``` 
+```
+
+
+
+#### Demo Clip-Video 
+
+Hầu hết lĩnh vực, ngành nghề kinh doanh, có thể sử dụng iShop 
+
+```json 
+- Dịch vụ đường phố: 
+
+Quán Cafe 
+https://www.qrcare.vn/s/100010010880011/i/1/p/261
+https://www.qrcare.vn/s-edit/100010010880011/p/20619057
+
+- Phòng gym 
+https://www.qrcare.vn/s-edit/100010010880021/p/21343766
+
+
+https://www.qrcare.vn/s/100010010880026/i/2/p/320
+https://www.qrcare.vn/s-edit/100010010880026/p/14986400
+
+https://www.qrcare.vn/s/100010010880027/i/2/p/347
+https://www.qrcare.vn/s-edit/100010010880027/p/56817532
+
+
+- Xe máy & oto: kinh doanh, sửa chữa, phụ tùng,...
+https://www.qrcare.vn/s-edit/100010010880032/p/38014667
+
+
+- Bất động sản: Sàn giao dịch, nhà mẫu, 
+https://www.qrcare.vn/s/100010010880028/i/1/p/962
+https://www.qrcare.vn/s-edit/100010010880028/p/85617900
+
+- Chăm sóc sức khoẻ: thẩm mĩ viện, spa, phòng gym, bán dụng cụ ...
+https://www.qrcare.vn/s-edit/100010010880029/p/32572800
+
+- Bảo hiểm: đội nhóm tư vấn bảo hiểm
+https://www.qrcare.vn/s-edit/100010010880030/p/33744758
+
+- Dịch vụ: du lịch, tư vấn du học, tuyển sinh,...
+https://www.qrcare.vn/s-edit/100010010880031/p/21389092
+
+
+Nhà hàng Đỏ đỏ
+
+
+gửi quốc 
+https://www.qrcare.vn/s-edit/100010010880022/p/93193867
+- Xây dựng & gia dụng: Cửa hàng vật liệu xây dựng, nội thất, thiết kế,...
+
+```
+
+
+
+
 #### Tư vấn Chuyển đổi số 
 
 Doanh nghiệp/ tổ chức / cơ quan nhà nước 
 ```json 
-https://www.qrcare.vn/s/100010010880026/i/2/p/320
-
 https://www.qrcare.vn/id/100010010681001/i/1/p/361
-
-
-https://www.qrcare.vn/s-edit/100010010880026/p/14986400
-
 ```
 
 Outsource: phát triển giải pháp
 ```json 
-https://www.qrcare.vn/s/100010010880027/i/2/p/347
-https://www.qrcare.vn/s-edit/100010010880027/p/56817532
+
 ``` 
 
 #### Customers 
@@ -103,13 +161,6 @@ https://www.qrcare.vn/s-edit/100010010880010/p/17741256
 ```
 
 #### Đại lý và Tuyển dụng
-
-Tìm Nhà phân phối 
-```json 
-https://www.qrcare.vn/s/100010010880033/i/2/p/119
-https://www.qrcare.vn/s-edit/100010010880033/p/30697004
-```
-
 
 
 Tuyển dụng 
@@ -148,10 +199,7 @@ https://www.qrcare.vn/s-edit/100010010880012/p/15737366
 ```
 
 
-#### Demo Clip-Video 
-```json 
-https://www.qrcare.vn/s-edit/100010010880011/p/20619057
-```
+
 
 #### Đội Đà nang 
 ```json 
@@ -168,15 +216,7 @@ https://www.qrcare.vn/s-edit/100010010880020/p/10168410
 
 #### Demo iShop
 
-Nhà hàng Đỏ đỏ
-```json 
-https://www.qrcare.vn/s-edit/100010010880021/p/21343766
 
-gửi quốc 
-https://www.qrcare.vn/s-edit/100010010880022/p/93193867
-
-https://www.qrcare.vn/s-edit/100010010880032/p/38014667
-```
 
 ####  Mr Quang 
 ```json 

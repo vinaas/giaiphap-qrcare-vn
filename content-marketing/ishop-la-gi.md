@@ -13,6 +13,8 @@ iShop giúp từng địa điểm sẽ nâng cao hiệu quả cho các hoạt đ
 1. phục vụ khách hàng tốt hơn theo khu vực 
 1. nâng cao hiệu quả của nhân viên
 
+![](ishop-overview-diagram.png)
+
 Hầu hết lĩnh vực, ngành nghề kinh doanh, có thể sử dụng iShop 
 - Bất động sản: Sàn giao dịch, nhà mẫu, 
 - Chăm sóc sức khoẻ: thẩm mĩ viện, spa, phòng gym, bán dụng cụ ...
