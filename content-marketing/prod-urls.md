@@ -39,7 +39,6 @@ https://www.qrcare.vn/s-edit/100010010880004/p/16796602
 ```
 
 
-
 ### iSHOP - Khách hàng tiêu biểu 
 ```json 
 https://www.qrcare.vn/s/100010010880005/i/1/p/427
@@ -98,12 +97,15 @@ Quán Cafe
 https://www.qrcare.vn/s/100010010880011/i/1/p/261
 https://www.qrcare.vn/s-edit/100010010880011/p/20619057
 
-- Phòng gym 
+- Quán nhậu, nhà hàng 
 https://www.qrcare.vn/s-edit/100010010880021/p/21343766
 
+- Bao hiem
+https://www.qrcare.vn/s/100010010880025/i/2/p/123
+https://www.qrcare.vn/s-edit/100010010880025/p/11362356
 
-https://www.qrcare.vn/s/100010010880026/i/2/p/320
-https://www.qrcare.vn/s-edit/100010010880026/p/14986400
+
+- Chăm sóc sức khoẻ: thẩm mĩ viện, spa, phòng gym, bán dụng cụ ...
 
 https://www.qrcare.vn/s/100010010880027/i/2/p/347
 https://www.qrcare.vn/s-edit/100010010880027/p/56817532
@@ -117,7 +119,7 @@ https://www.qrcare.vn/s-edit/100010010880032/p/38014667
 https://www.qrcare.vn/s/100010010880028/i/1/p/962
 https://www.qrcare.vn/s-edit/100010010880028/p/85617900
 
-- Chăm sóc sức khoẻ: thẩm mĩ viện, spa, phòng gym, bán dụng cụ ...
+- Trung tâm anh ngữ 
 https://www.qrcare.vn/s-edit/100010010880029/p/32572800
 
 - Bảo hiểm: đội nhóm tư vấn bảo hiểm
@@ -144,6 +146,10 @@ https://www.qrcare.vn/s-edit/100010010880022/p/93193867
 Doanh nghiệp/ tổ chức / cơ quan nhà nước 
 ```json 
 https://www.qrcare.vn/id/100010010681001/i/1/p/361
+
+https://www.qrcare.vn/s/100010010880026/i/2/p/320
+https://www.qrcare.vn/s-edit/100010010880026/p/14986400
+
 ```
 
 Outsource: phát triển giải pháp
@@ -180,8 +186,6 @@ https://www.qrcare.vn/s-edit/100010010880023/p/27769164
 
 ```json
 
-https://www.qrcare.vn/s/100010010880025/i/2/p/123
-https://www.qrcare.vn/s-edit/100010010880025/p/11362356
 
 ```
 #### Kinh doanh miền nam
