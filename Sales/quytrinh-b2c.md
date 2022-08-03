@@ -147,3 +147,8 @@ Chuẩn bị: mỗi bạn sales cần có
 - Ghi chú với khách mua hàng:
     - tên, số điện thoại để hỗ trợ sau này
 
+
+#### Tham khảo thêm 
+
+- [Tổng quan ishop](https://vinaas.com/ishop.iapp)
+- [Trang chủ](/)
