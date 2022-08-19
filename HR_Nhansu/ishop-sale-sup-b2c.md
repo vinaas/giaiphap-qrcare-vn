@@ -34,7 +34,7 @@
   + Doanh số: 150,000,000 đ/tháng
 
 #### Lương:
-  + Lương cơ bản: 9,000,000 đ/tháng
+  + Lương cơ bản: 7,000,000 đ/tháng
   + Phụ cấp cơm trưa: 30.000đ/ngày
   + Phụ cấp điện thoại: 100.000đ/tháng
   + Phụ cấp xăng: 200.000đ/tháng

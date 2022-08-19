@@ -11,6 +11,7 @@
 - [B2C](/Sales/quytrinh-b2c.html)
 
 ### Tuyển dụng
-- [nhân viên kinh doanh](/HR_Nhansu/ishop-sale-b2c.html)
-- [Giám sát kinh doanh](/HR_Nhansu/ishop-sale-sup-b2c.html)
+- [nhân viên giới thiệu ishop](/HR_Nhansu/ishop-sale-b2c-v2.html)
+
+- [Trưởng nhóm kinh doanh](/HR_Nhansu/ishop-sale-sup-b2c.html)
  
