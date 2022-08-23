@@ -13,5 +13,5 @@
 ### Tuyển dụng
 - [nhân viên giới thiệu ishop](/HR_Nhansu/ishop-sale-b2c-v2.html)
 
-- [Trưởng nhóm kinh doanh](/HR_Nhansu/ishop-sale-sup-b2c.html)
+- [Nhân viên hướng dẫn, tư vấn iShop](/HR_Nhansu/ishop-customerCare.html)
  
