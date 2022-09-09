@@ -29,7 +29,7 @@ Giá  trị cộng thêm với iShop::
 Thu hút người bằng công nghệ chạm NFC::
   bởi tính năng NFC chạm vào bằng điện thoại để xem thông tin.  
 
-video::RvRhUHTV_8k[youtube]
+
 
 [.float-group]
 --
@@ -128,3 +128,14 @@ Ghi chú về khách hàng theo DeviceId
 == Customer peace of mind with iCard and iShop 
 
 Tăng sự an tâm của khách hàng khi làm việc với nhân viên có Chức vụ, trạng thái làm việc của nhân viên được xác thực bởi Công ty(*)
+
+video::upm7qgomnp0[youtube]
+
+Test with code 
+ifdef::env-github[]
+image:https://img.youtube.com/vi/rAteGra5-xM/maxresdefault.jpg[link=https://youtu.be/rAteGra5-xM]
+endif::[]
+
+ifndef::env-github[]
+video::rAteGra5-xM[youtube]
+endif::[]
