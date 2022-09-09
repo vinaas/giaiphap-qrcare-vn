@@ -29,13 +29,13 @@ Giá  trị cộng thêm với iShop::
 Thu hút người bằng công nghệ chạm NFC::
   bởi tính năng NFC chạm vào bằng điện thoại để xem thông tin.  
 
-- [video minh hoạ]
+video::RvRhUHTV_8k[youtube]
 
 [.float-group]
 --
 [.right]
 .iCard sau thay đổi
-image::icard-after-before.jpg[a,200,0]
+image::icard-after-before.jpg[after-change-icard,200,0]
 
 Thu hút bằng thay đổi Tinh tế:: với kích thước và thông tin hiển thị
 
