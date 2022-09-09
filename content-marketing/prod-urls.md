@@ -84,6 +84,53 @@ https://www.qrcare.vn/s/100010010880009/i/3/p/401
 https://www.qrcare.vn/s-edit/100010010880009/p/21638467
 ```
 
+### Customers 
+
+Company (iShop + iCard) : Doanh nghiệp 
+```json 
+https://www.qrcare.vn/s/100010010880010/i/2/p/244
+https://www.qrcare.vn/surl/100010010880010/i/2/p/244
+https://www.qrcare.vn/s-edit/100010010880010/p/17741256
+```
+
+```json 
+
+// lay tu Đội Đà nang 
+
+// Minh hoạ Quán Cafe 
+https://www.qrcare.vn/s/100010010880011/i/1/p/261
+https://www.qrcare.vn/s-edit/100010010880011/p/20619057
+
+https://www.qrcare.vn/s-edit/100010010880012/p/15737366
+
+
+```
+
+
+### Tuyển dụng 
+
+```json
+
+https://www.qrcare.vn/s-edit/100010010880013/p/25652810
+
+//Offline Sale B2C 
+https://www.qrcare.vn/s-edit/100010010880014/p/19476480
+
+//Online Sale B2C
+https://www.qrcare.vn/surl/100010010880015/i/1/p/123
+https://www.qrcare.vn/s-edit/100010010880015/p/37914664
+
+//iShop B2C Consultant 
+https://www.qrcare.vn/surl/100010010880016/i/1/p/606
+https://www.qrcare.vn/s-edit/100010010880016/p/37580657
+
+//
+https://www.qrcare.vn/s-edit/100010010880017/p/19419187
+https://www.qrcare.vn/s-edit/100010010880018/p/44494366
+https://www.qrcare.vn/s-edit/100010010880019/p/42539741
+https://www.qrcare.vn/s-edit/100010010880020/p/10168410
+
+```
 
 
 #### Demo Clip-Video 
@@ -92,10 +139,6 @@ Hầu hết lĩnh vực, ngành nghề kinh doanh, có thể sử dụng iShop
 
 ```json 
 - Dịch vụ đường phố: 
-
-Quán Cafe 
-https://www.qrcare.vn/s/100010010880011/i/1/p/261
-https://www.qrcare.vn/s-edit/100010010880011/p/20619057
 
 - Quán nhậu, nhà hàng 
 https://www.qrcare.vn/s-edit/100010010880021/p/21343766
@@ -156,16 +199,6 @@ Outsource: phát triển giải pháp
 ```json 
 
 ``` 
-
-#### Customers 
-
-Company (iShop + iCard) : Doanh nghiệp 
-```json 
-https://www.qrcare.vn/s/100010010880010/i/2/p/244
-https://www.qrcare.vn/surl/100010010880010/i/2/p/244
-https://www.qrcare.vn/s-edit/100010010880010/p/17741256
-```
-
 #### Đại lý và Tuyển dụng
 
 
@@ -202,23 +235,6 @@ https://www.qrcare.vn/s/100010010880012/i/1/p/881
 https://www.qrcare.vn/s-edit/100010010880012/p/15737366
 ```
 
-
-
-
-#### Đội Đà nang 
-```json 
-https://www.qrcare.vn/s-edit/100010010880012/p/15737366
-https://www.qrcare.vn/s-edit/100010010880013/p/25652810
-https://www.qrcare.vn/s-edit/100010010880014/p/19476480
-https://www.qrcare.vn/s-edit/100010010880015/p/37914664
-https://www.qrcare.vn/s-edit/100010010880016/p/37580657
-https://www.qrcare.vn/s-edit/100010010880017/p/19419187
-https://www.qrcare.vn/s-edit/100010010880018/p/44494366
-https://www.qrcare.vn/s-edit/100010010880019/p/42539741
-https://www.qrcare.vn/s-edit/100010010880020/p/10168410
-```
-
-#### Demo iShop
 
 
 

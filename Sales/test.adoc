@@ -1,0 +1,43 @@
+
+= Tiêu đề bài viết 
+
+
+== I. title 
+
+*Bắt đầu nào*
+
+* 1
+* 3
+* 2
+
+=== video
+
+video::67480300[vimeo]
+
+video::RvRhUHTV_8k[youtube,list=PLDitloyBcHOm49bxNhvGgg0f9NRZ5lSaP]
+
+=== hình ảnh 
+
+* Block image
+
+image::https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg[Tux,50,50]
+
+* inline image
+
+You can find image:https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg[Linux,25,35] everywhere these days.
+
+=== float
+
+[.float-group]
+--
+[.left]
+.Linked Image A  
+[link=https://www.flickr.com/photos/javh/5448336655]
+image::https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg[A,140,180]
+
+[.left]
+.Image B
+image::https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg[B,140,180]
+--
+
+Thực sự khởi động 
