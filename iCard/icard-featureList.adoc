@@ -32,7 +32,7 @@ Thu hút người bằng công nghệ chạm NFC::
 .Tap icard
 image::https://icard.qrcare.vn/assets/images/video1-bg-1200x800.png[tap,600,0]
 
-video::QatY9StqVrg[youtube,width=480,height=320,start=30,opts=autoplay]
+video::kXXV2gZDpV0[youtube,width=480,height=320,start=30,opts=autoplay]
 
 [.float-group]
 --
