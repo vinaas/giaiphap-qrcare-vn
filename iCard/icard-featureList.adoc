@@ -30,12 +30,13 @@ Thu hút người bằng công nghệ chạm NFC::
   bởi tính năng NFC chạm vào bằng điện thoại để xem thông tin.  
 
 
+video::QatY9StqVrg[youtube,width=640,start=60,opts=autoplay]
 
 [.float-group]
 --
 [.right]
 .iCard sau thay đổi
-image::icard-after-before.jpg[after-change-icard,200,0]
+image::icard-after-before.JPG[after-change-icard,200,0]
 
 Thu hút bằng thay đổi Tinh tế:: với kích thước và thông tin hiển thị
 
@@ -129,7 +130,6 @@ Ghi chú về khách hàng theo DeviceId
 
 Tăng sự an tâm của khách hàng khi làm việc với nhân viên có Chức vụ, trạng thái làm việc của nhân viên được xác thực bởi Công ty(*)
 
-video::upm7qgomnp0[youtube]
 
 Test with code 
 ifdef::env-github[]
