@@ -29,8 +29,10 @@ Giá  trị cộng thêm với iShop::
 Thu hút người bằng công nghệ chạm NFC::
   bởi tính năng NFC chạm vào bằng điện thoại để xem thông tin.  
 
+.Tap icard
+image::https://icard.qrcare.vn/assets/images/video1-bg-1200x800.png[tap,600,0]
 
-video::QatY9StqVrg[youtube,width=640,start=60,opts=autoplay]
+video::QatY9StqVrg[youtube,width=480,height=320,start=30,opts=autoplay]
 
 [.float-group]
 --
