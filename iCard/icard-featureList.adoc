@@ -4,6 +4,7 @@ Quốc Bảo<quocbao@vinaas.com>
 v2.0, 2019-03-22
 :homepage: https://example.org
 :toc:
+:last-update-label!:
 
 == Giá trị của iCard 
 
@@ -30,6 +31,12 @@ Thu hút người bằng công nghệ chạm NFC::
 
 - [video minh hoạ]
 
+[.float-group]
+--
+[.right]
+.iCard sau thay đổi
+image::icard-after-before.jpg[a,200]
+
 Thu hút bằng thay đổi Tinh tế:: với kích thước và thông tin hiển thị
 
 * Nổi bật Tên, Chức vụ và Logo, nhận diện công ty
@@ -38,30 +45,46 @@ Thu hút bằng thay đổi Tinh tế:: với kích thước và thông tin hi�
 
 * Thông tin chi tiết (số điện thoại, email,...) vào bên trong: xem bằng chạm NFC hoặc quét qrCode
 
-image::icard-after-before.jpg[]
+--
+
 
 Phù hợp với nhiều hoàn cảnh:: 
 iCard có nhiều hình dạng tuỳ theo nhu cầu, ngữ cảnh để thu hút khách hàng:
 
-. *Nổi bật, khác biệt* với Thẻ cứng được thiết kế riêng
 
-image::background-icard.png[icard-demo]
+
+
+[.float-group]
+--
+
+[.right]
+.Thẻ cứng NFC
+image::background-icard.png[icard-demo,200,0]
+
+. *Nổi bật, khác biệt*
+** Thiết kế riêng theo cá nhân sử dụng
+** Thẻ nhựa cứng có thể sử dụng lâu dài 
+--
+
+[.float-group]
+--
+[.right]
+.Danh thiep giay
+image::2022-09-09-11-16-21.png[dt,200,0]
 
 . *Truyền thống* với Danh thiếp giấy gắn chip NFC
-
-image::2022-09-09-11-16-21.png[]
 
 ** Truyền thống trao nhận Danh thiếp khi giới thiệu ban đầu.
   
 ** Tặng Danh thiếp Giấy gắn Chip cho Khách hàng tạo nên sự trang trọng, tinh tế (so với tặng Thẻ cứng)
 
 ** Với nhu cầu đưa số lượng nhiều, sử dụng Danh thiếp in qrcode không gắn chip
+--
 
 . *Thân mật* tích hợp lên đồ vật cá nhân và chia sẻ ngay khi cần
   
 ** Ốp lưng điện thoại 
 ** Móc gắn chìa khoá , hoặc trực tiếp lên chìa khoá 
-  
 
 == Promotion with iCard 
 
@@ -70,17 +93,28 @@ Khi khách hàng đã chú ý, tò mò về iCard, đây là cơ hội để gi�
 Giới thiệu thông tin mới nhất::
 Thông qua iCard, nhân viên giới thiệu thêm với Khách hàng về công ty, sản phẩm với các thông tin mới nhất: 
 
-Truy cập tới iShop hoặc website::  
-để xem thông tin mới nhất về sản phẩm, dịch vụ mà khách hàng đang quan tâm 
 
-image::2022-09-09-11-39-46.png[]
+
+
+[.float-group]
+--
+[.right]
+.icard 
+image::2022-09-09-11-39-46.png[ishop,150,0]
+
+Truy cập tới iShop hoặc website::  
+để xem thông tin mới nhất về sản phẩm, 
+dịch vụ mà khách hàng đang quan tâm 
+--
+
+[.float-group]
+--
+[.right]
+image::2022-09-09-11-37-10.png[icard,150,0]
 
 Xem iCard từ Danh bạ:: 
 hướng dẫn cách truy cập từ Danh bạ, 
-
-image::2022-09-09-11-37-10.png[]
-
-
+--
 
 Chữ ký Email:: đường link của iCard đính kèm hình ảnh. 
 
