@@ -32,7 +32,7 @@ Thu hút người bằng công nghệ chạm NFC::
 .Tap icard
 image::https://icard.qrcare.vn/assets/images/video1-bg-1200x800.png[tap,600,0]
 
-video::kXXV2gZDpV0[youtube,width=480,height=320,start=30,opts=autoplay]
+video::kXXV2gZDpV0[youtube,width=480,height=320,start=0,opts=autoplay]
 
 [.float-group]
 --
@@ -134,12 +134,3 @@ Tăng sự an tâm của khách hàng khi làm việc với nhân viên có Ch�
 
 .vipid
 image::https://theme.hstatic.net/200000329903/1000802639/14/banner-homepage.gif[tap,300,0]
-
-Test with code 
-ifdef::env-github[]
-image:https://img.youtube.com/vi/rAteGra5-xM/maxresdefault.jpg[link=https://youtu.be/rAteGra5-xM]
-endif::[]
-
-ifndef::env-github[]
-video::rAteGra5-xM[youtube]
-endif::[]
