@@ -1,5 +1,4 @@
 :docinfo: shared
-:stylesheet: my-stylesheet.css
 :last-update-label!:
 
 == Cộng tác viên Giới thiệu iCard 
