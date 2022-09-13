@@ -1,6 +1,7 @@
 :docinfo: shared
 :stylesheet: my-stylesheet.css
-:last-update-label!:== Giám sát kinh doanh iShop, iCards
+:last-update-label!:
+== Giám sát kinh doanh iShop, iCards
 
 === Khu vực tp Hồ Chí Minh
 

@@ -1,3 +1,7 @@
+:docinfo: shared
+:stylesheet: my-stylesheet.css
+:last-update-label!:
+
 == Sản phẩm của Công ty Phần Mềm Tiên Tiến Việt Nam
 
 === Danh sách sản phẩm
@@ -10,9 +14,9 @@
 
 === Tuyển dụng
 
-* link:./HR_Nhansu/ishop-sale-b2c-v2.html[Nhân viên Giới thiệu ishop]
 
-* link:./HR_Nhansu/ishop-sale-b2c-partime.html[Cộng tác viên Giới thiệu iShop]
+=== iCard 
 
-* link:./HR_Nhansu/ishop-customerCare.html[Nhân viên Tư vấn iShop]
+* link:./HR_Nhansu/icard-b2c-sale-partime.html[Cộng tác viên Giới thiệu iCard]
+
 
