@@ -2,6 +2,7 @@
 = iCard - Danh thiếp Số 
 Quốc Bảo<quocbao@vinaas.com>
 v2.0, 2019-03-22
+:docinfo: shared
 :homepage: https://example.org
 :toc:
 :last-update-label!:
