@@ -1,15 +1,18 @@
 
 = iCard - Danh thiếp Số 
-Quốc Bảo<quocbao@vinaas.com>
-v2.0, 2019-03-22
 :docinfo: shared
-:homepage: https://example.org
-:toc:
+:homepage: https://icard.vinaas.com
 :last-update-label!:
 
-== Giá trị của iCard 
+== Định nghĩa 
 
-iCard - Danh thiếp số (digital namecard)
+iCard là Danh thiếp Số có tích hợp công nghệ NFC, cho phép Điện thoại thông minh truy cập thông tin bằng cách chạm vào iCard.
+
+.Tap to know iCard 
+image::2022-09-20-16-03-59.png[taptoknow,600,0]
+
+
+== Giá trị của iCard 
 
 Giá trị cho khách hàng như sau:: 
 
@@ -30,8 +33,8 @@ Giá  trị cộng thêm với iShop::
 Thu hút người bằng công nghệ chạm NFC::
   bởi tính năng NFC chạm vào bằng điện thoại để xem thông tin.  
 
-.Tap icard
-image::https://icard.qrcare.vn/assets/images/video1-bg-1200x800.png[tap,600,0]
+.iCard - Tap to know
+image::2022-09-20-16-03-59.png[taptoknow,600,0]
 
 video::kXXV2gZDpV0[youtube,width=480,height=320,start=0,opts=autoplay]
 
@@ -132,6 +135,32 @@ Ghi chú về khách hàng theo DeviceId
 == Customer peace of mind with iCard and iShop 
 
 Tăng sự an tâm của khách hàng khi làm việc với nhân viên có Chức vụ, trạng thái làm việc của nhân viên được xác thực bởi Công ty(*)
+
+== Tính năng của iCard
+Tuỳ nhu cầu sử dụng, iCard có hình dạng kích thước chất liệu khác nhau
+
+* Thẻ nhựa PVC thiết kế tiêu chuẩn hoặc tuỳ biến riêng
+* Danh thiếp giấy với nhiều chất liệu khác nhau
+* Móc gắn chìa khoá
+* iCard còn có Hộp bên ngoài, để làm quà tặng 
+
+iCard có ID duy nhất, link truy cập riêng tư, để lưu thông tin cá nhân, kèm theo giới thiệu về công ty, sản phẩm, dịch vụ mà cá nhân đó đang làm việc.
+
+. Đầu tiên là Thông tin công ty (*)
+. Avatar: tên, chức danh cá nhân
+. Thông tin liên hệ
+. Thông tin thanh toán (ẩn nếu có iShop)
+. Thông tin của công ty được thiết lập ở iShop
+. Giới thiệu cá nhân (ẩn nếu có iShop )
+. Bottom actions:
+** Gọi điện
+** Thêm vào danh bạ
+** Xác thực 
+
+iCard còn có mã qrcode để hỗ trợ Điện thoại chưa có NFC, và cả link riêng tư để chia sẻ qua email khi cần. 
+
+.icard
+image::icard-test.gif[tap,300,0]
 
 .vipid
 image::https://theme.hstatic.net/200000329903/1000802639/14/banner-homepage.gif[tap,300,0]

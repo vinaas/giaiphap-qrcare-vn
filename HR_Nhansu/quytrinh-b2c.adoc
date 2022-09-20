@@ -62,11 +62,11 @@ image::2022-09-13-09-59-06.png[sp2,300,0]
 ** Cập nhật Avatar, tên, số điện thoại
 ** Cách chạm NFC trên iPhone và điện thoại Android của khách hàng 
 
-* Tuỳ biến sau khi mua hàng 
+* Hỗ trợ tuỳ biến khi khách hàng mua iCard chuẩn  
 
 ** Miễn phí in Tên, Chức vụ lên mặt trống (giao hàng sau 5 ngày)
 
-** Phụ phí 30k nếu in theo mẫu cho cả 2 mặt 
+** Phụ phí 30k nếu in theo Mẫu iCard có sẵn
 
 ** Thu hồi Thẻ đang có khi giao Thẻ tuỳ biến 
 

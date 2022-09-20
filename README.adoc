@@ -10,7 +10,7 @@
 
 === Quy trình bán hàng
 
-* link:./Sales/quytrinh-b2c.html[Trực tiếp tại địa điểm kinh doanh]
+* link:./HR_Nhansu/quytrinh-b2c.html[Trực tiếp tại địa điểm kinh doanh]
 
 === Tuyển dụng
 
