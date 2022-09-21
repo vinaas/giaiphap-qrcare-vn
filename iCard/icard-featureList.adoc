@@ -6,11 +6,19 @@
 
 == Định nghĩa 
 
-iCard là Danh thiếp Số có tích hợp công nghệ NFC, cho phép Điện thoại thông minh truy cập thông tin bằng cách chạm vào iCard.
+[.float-group]
+--
+[.right]
+.iCard - Tap to know 
+image::icard-taptoknow.gif[tap,300,0]
 
-.Tap to know iCard 
-image::2022-09-20-16-03-59.png[taptoknow,600,0]
+iCard là Danh thiếp Số cho công việc::
+* có tích hợp công nghệ NFC, cho phép Điện thoại thông minh truy cập thông tin bằng cách chạm vào iCard.
 
+* có ID duy nhất, link truy cập riêng tư chứa đầy đủ thông tin dành cho công việc
+
+* Có Xác thực bởi Công ty, Cơ quan đang làm việc kèm theo giới thiệu về sản phẩm, dịch vụ đang cung cấp
+--
 
 == Giá trị của iCard 
 
@@ -33,16 +41,13 @@ Giá  trị cộng thêm với iShop::
 Thu hút người bằng công nghệ chạm NFC::
   bởi tính năng NFC chạm vào bằng điện thoại để xem thông tin.  
 
-.iCard - Tap to know
-image::2022-09-20-16-03-59.png[taptoknow,600,0]
-
 video::kXXV2gZDpV0[youtube,width=480,height=320,start=0,opts=autoplay]
 
 [.float-group]
 --
 [.right]
 .iCard sau thay đổi
-image::icard-after-before.JPG[after-change-icard,200,0]
+image::icard-after-before.JPG[after-change-icard,300,0]
 
 Thu hút bằng thay đổi Tinh tế:: với kích thước và thông tin hiển thị
 
@@ -66,7 +71,7 @@ iCard có nhiều hình dạng tuỳ theo nhu cầu, ngữ cảnh để thu hút
 
 [.right]
 .Thẻ cứng NFC
-image::background-icard.png[icard-demo,200,0]
+image::icard-sample1.png[icard-demo,300,0]
 
 . *Nổi bật, khác biệt*
 ** Thiết kế riêng theo cá nhân sử dụng
@@ -77,7 +82,7 @@ image::background-icard.png[icard-demo,200,0]
 --
 [.right]
 .Danh thiep giay
-image::2022-09-09-11-16-21.png[dt,200,0]
+image::2022-09-09-11-16-21.png[dt,300,0]
 
 . *Truyền thống* với Danh thiếp giấy gắn chip NFC
 
@@ -159,8 +164,3 @@ iCard có ID duy nhất, link truy cập riêng tư, để lưu thông tin cá n
 
 iCard còn có mã qrcode để hỗ trợ Điện thoại chưa có NFC, và cả link riêng tư để chia sẻ qua email khi cần. 
 
-.icard
-image::icard-test.gif[tap,300,0]
-
-.vipid
-image::https://theme.hstatic.net/200000329903/1000802639/14/banner-homepage.gif[tap,300,0]
