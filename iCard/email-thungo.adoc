@@ -9,11 +9,14 @@
 
 == Nội dung 
 
+Kính gửi Quý công ty,
+
+Chúng tôi là Công ty Phần Mềm Tiên Tiến Việt Nam, xin giới thiệu với Quý công ty 1 sản phẩm công nghệ mới là iCard.
 
 iCard là Danh thiếp số, với Công nghệ nổi bật "tap to know": chạm vào bằng smartphone để biết về chủ Danh thiếp: thông tin cá nhân, công ty, chức danh hiện tại và nhiều thông tin khác. 
 
-.Xem Clip minh hoạ bên dưới
-image::icard-sample1.png[icard-demo,300,0]
+.iCard - Tap to know 
+image::icard-taptoknow.gif[tap,300,0]
 
 "tap to know" giúp Nhân viên kinh doanh tạo chú ý với *khách hàng lần đầu gặp mặt*. Sự chú ý, tò mò của Khách hàng là cơ hội để giới thiệu thêm công ty, sản phẩm dịch vụ,... tạo ấn tượng ban đầu, và mở ra cơ hội bán hàng, hợp tác trong tương lai. 
 
@@ -28,6 +31,3 @@ Cần quan tâm, tương tác sau khi tặng, giúp người nhận vận dụng
 Nếu quan tâm tới iCard, Chúng tôi sẽ gửi tặng vài bộ iCard để các anh chị trong Quý công ty tự trải nghiệm sản phẩm. 
 
 Và để trải nghiệm đầy đủ các giá trị của iCard, chúng tôi xin được gặp mặt trực tiếp để minh hoạ thực tế các tình huống trên. 
-
-.iCard - Tap to know 
-image::icard-taptoknow.gif[tap,300,0]
