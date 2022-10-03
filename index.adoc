@@ -4,6 +4,10 @@
 
 == Sản phẩm của Công ty Phần Mềm Tiên Tiến Việt Nam
 
+=== Thư ngỏ 
+
+* link:./iCard/email-thungo.html[Email giới thiệu iCard]
+
 === Danh sách sản phẩm
 
 * link:./iCard/icard-featureList.html[Tổng quan iCard]
@@ -13,7 +17,6 @@
 * link:./HR_Nhansu/quytrinh-b2c.html[Trực tiếp tại địa điểm kinh doanh]
 
 === Tuyển dụng
-
 
 === iCard 
 
