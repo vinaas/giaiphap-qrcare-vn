@@ -8,7 +8,10 @@
 
 * link:./iCard/email-thungo.html[Email giới thiệu iCard]
 
-=== Danh sách sản phẩm
+* link:./iCard/why-use-iCard.html[Tại sao Doanh nghiệp chọn Danh thiếp số iCard]
+
+
+=== Giới thiệu
 
 * link:./iCard/icard-featureList.html[Tổng quan iCard]
 
