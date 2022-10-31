@@ -1,0 +1,34 @@
+= Hướng dẫn cách sử dụng iCard vào thực tế
+
+
+== "Chuyển đổi số" Danh thiếp kinh doanh 
+
+=== "Số hoá" Danh thiếp đang có
+
+Mục tiêu::
+* Tiếp tục sử dụng Danh thiếp giấy đang có một cách hiệu quả hơn
+** Không phải thiết kế, in ấn, gửi lại 
+** Gây chú ý với Danh thiếp đang có 
+
+Lợi ích::
+* Tận dung Danh thiếp đang có: không phải thiết kế, in ấn mới
+* Sử dụng ngay 
+
+Thực hiện trong 15p::
+* Gắn chip iCard vào mặt sau Danh thiếp giấy
+* Dán 2 Danh thiếp giấy thành một
+* Nhập thông tin trên Danh thiếp vào iCard
+
+Yêu cầu::
+* Mua 1 bộ iCard 149k, phiên bản Chip dán 
+
+== "Chuyển đổi" Danh thiếp đã số hoá
+
+Thiết kế mới tối giản::
+  
+* lượt bỏ thông tin chi tiết, chỉ còn logo công ty, họ tên và chức danh
+* giảm kích thước để tiện lợi hài hoà 
+
+== Làm mới Danh thiếp tương tác 
+
+

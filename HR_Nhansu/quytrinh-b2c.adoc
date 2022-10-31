@@ -42,15 +42,11 @@
 [.float-group]
 --
 [.left]
-.Sample 1
-image::2022-09-13-10-00-09.png[sp1,300,0]
-
-[.left]
-.Sample 2
+.Sample 
 image::2022-09-13-09-59-06.png[sp2,300,0]
 --
 
-** iCard chuẩn: 1 Thẻ PVC in 1 mặt, 1 tem qrcode tròn, 1 Thẻ thiết lập 
+** iCard chuẩn: 1 Thẻ chip nhựa in theo mẫu, 2 tem qrcode tròn, 1 Thẻ thiết lập 
 
 ** Giá 149,000 đ / 1 Bộ, Mua 5 bộ tặng 1 bộ
 

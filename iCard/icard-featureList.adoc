@@ -12,13 +12,30 @@
 .iCard - Tap to know 
 image::icard-taptoknow.gif[tap,300,0]
 
-iCard là Danh thiếp Số cho công việc::
-* có tích hợp công nghệ NFC, cho phép Điện thoại thông minh truy cập thông tin bằng cách chạm vào iCard.
+iCard là Danh thiếp Số với tính năng "Tap to know" sử dụng công nghệ NFC::
+
+* chạm vào bằng smartphone để biết về chủ Danh thiếp: thông tin cá nhân, công ty, chức danh hiện tại và nhiều thông tin khác. 
 
 * có ID duy nhất, link truy cập riêng tư chứa đầy đủ thông tin dành cho công việc
 
 * Có Xác thực bởi Công ty, Cơ quan đang làm việc kèm theo giới thiệu về sản phẩm, dịch vụ đang cung cấp
 --
+
+
+iCard là Danh thiếp số, với Công nghệ nổi bật "tap to know": chạm vào bằng smartphone để biết về chủ Danh thiếp: thông tin cá nhân, công ty, chức danh hiện tại và nhiều thông tin khác. 
+
+.iCard - Tap to know 
+image::icard-taptoknow.gif[tap,300,0]
+
+"tap to know" giúp Nhân viên kinh doanh tạo chú ý với *khách hàng lần đầu gặp mặt*. Sự chú ý, tò mò của Khách hàng là cơ hội để giới thiệu thêm công ty, sản phẩm dịch vụ,... tạo ấn tượng ban đầu, và mở ra cơ hội bán hàng, hợp tác trong tương lai. 
+
+Với *khách hàng hiện tại*, "tap to know" khiến buổi trao đổi trở nên *lôi cuốn, thú vị*. Biết được công nghệ mới, tạo nên sự tò mò, muốn được trải nghiệm trên chính điện thoại của mình. Khi khách hàng thích thú với iCard, nhiều nội dung thú vị khác sẽ dễ dàng được chia sẻ. 
+
+Nếu vận dụng tốt, iCard là *Công cụ đắc lực* trong việc tương tác với khách hàng, đối tác, của mỗi Nhân viên, cũng như một phần trong "quy trình bán hàng" của Đội ngũ kinh doanh. 
+
+iCard cũng là *Quà tặng* thú vị, dành cho Khách hàng, Đối tác quan trọng. 
+Khác với Quà tặng khác ở vật chất hữu hình, giá trị của iCard là trải nghiệm "tap to know", là công cụ, *phương pháp mới* trong Kinh doanh. 
+Cần quan tâm, tương tác sau khi tặng, giúp người nhận vận dụng hợp lý trong thực tế, cũng là cơ hội để củng cố mối quan hệ. 
 
 == Giá trị của iCard 
 

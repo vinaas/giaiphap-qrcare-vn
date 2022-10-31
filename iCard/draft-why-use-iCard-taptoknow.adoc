@@ -1,0 +1,72 @@
+
+== Tại sao chọn iCard là Giải pháp cho Doanh nghiệp
+:docinfo: shared
+:last-update-label!:
+
+
+=== 1. An toàn thông tin với Danh thiếp số iCard
+
+Danh thiếp truyền thống là một hình thức Trao đổi thông tin Kinh doanh, trong đó số điện thoại, email,... in trên bề mặt. 
+
+image::2022-10-31-11-10-30.png[namecard,300]
+
+Trong thời đại smartphone, mạng xã hội phổ biến hiện nay,
+Chỉ cần chụp hình và chia sẻ, các thông tin dễ dàng lan toả khắp nơi. 
+
+Khi danh thiếp được số hoá, thông tin cá nhân được lưu trữ trong 1 Url, được mã hoá thành qrcode. 
+
+image::2022-10-31-11-10-57.png[qrcode-namecard,300]
+
+Tuy nhiên việc "số hoá" càng khiến cho việc thu thập thông tin đơn giản hơn
+qua qrcode.
+
+iCard khắc phục các vấn đề trên bằng các biện pháp sau: 
+
+==== 1. Kiểm soát thông tin đã chia sẻ
+
+iCard là Danh thiếp số, với thông tin liên hệ không hiển thị trên bề mặt.
+
+image::2022-10-31-11-25-55.png[icard-name,300]
+
+Người đối diện cần chạm trực tiếp vào iCard, để truy cập các thông tin liên hệ được lưu trữ trong 1 URL riêng tư. 
+
+.iCard - Tap to know 
+image::icard-taptoknow.gif[tap,300,0]
+
+Để kiểm soát việc chia sẻ URL này, iCard cho phép người dùng giới hạn thời gian và số lượng truy cập, người dùng có thể khởi tạo URL mới thay thế cái đã hết hạn. 
+
+==== 2.Ngăn chặn việc thu thập bằng công cụ tự động
+
+Ngoài ID người sử dụng, URL còn có mã riêng tư (private code) để các công cụ tự động, không thể quét thu thập thông tin một cách bất hợp pháp
+
+* Private code: cơ chế chống dò tìm theo ID, quét, thu thập data từ xa bằng các phần mềm tự động 
+* Secure code: mã Pin, password riêng tư cho chủ nhân iCard 
+
+==== 3.Lưu trữ, bảo mật bởi Doanh nghiệp sở hữu
+
+iCard cung cấp các Gói triển khai trên hạ tầng, server riêng của Doanh nghiệp. 
+Database được lưu trữ và giám sát bởi đội ngũ IT nội bộ, an toàn về thông tin với bên nhà cung cấp thứ 3. 
+
+=== iCard là giải pháp có thể tuỳ biến theo nhu cầu của Doanh nghiệp 
+
+. *Custom Brand*-Thương hiệu của Doanh nghiệp trên iCard
+
+** Giao diện thẻ với logo, tên Doanh nghiệp 
+
+** Thương hiệu khi chạm NFC
+
+.icard
+image::2022-10-29-14-56-49.png[icard-tapnfc,200,0]
+
+. *Customization* Tuân thủ các Tiêu chuẩn công nghệ mới nhất như Open API, MicroService, ... 
+
+** Cho phép mở rộng, tuỳ biến theo nhu cầu của Doanh nghiệp 
+
+** dễ dàng kết nối với các hệ thống khác
+
+. iCard được xây dựng bởi bởi Công ty Phần mềm trên 10 năm phát triển giải pháp Phần mềm cho Doanh nghiệp
+
+** Kiến trúc giải pháp (1-1-n++) , giúp hệ thống công nghệ thông tin linh hoạt thay đổi theo hoạt động kinh doanh 
+
+** triển khai thành công nhiều hệ thống Ecommerce, Customer Loyalty, Enterprise Portal, ... cho Doanh nghiệp lớn: Isuzu, MAP Life, SBS Fedex Viet nam, DKSH Smollan, Nutifood,...
+
