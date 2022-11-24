@@ -1,0 +1,141 @@
+
+= iSolution - Giải pháp chuyển đổi số Mạng lưới kinh doanh 
+Bao Trinh <quocbao@vinaas.com>
+:homepage: https://vinaas.com 
+:docinfo: shared
+:last-update-label!:
+
+
+== Why: Tại sao cần "Chuyển đổi số"?
+
+Câu Trả lời của iSolution::
+
+* Với Doanh nghiệp, đơn vị kinh doanh, Giải pháp "Chuyển đổi số" để cải thiện Kết quả kinh doanh và phục vụ tốt hơn cho Khách hàng, Nhân viên, Đối tác,...
+
+* Với cơ quan, tổ chức Chính phủ, "Chuyển đổi số" để cải thiện Hiệu quả hoạt động và phục vụ tốt hơn cho người dân, cán bộ, tổ chức,...
+
+Tại sao chọn 2 mục tiêu trên:: bất kỳ công việc nào đều tạo ra giá trị hữu hình và vô hình. 
+
+* `Kết quả Kinh doanh được cải thiện` là *giá trị hữu hình* có thể đo lường hiệu quả của việc đầu tư nguồn lực để thực hiện Chuyển đổi số
+
+* `Phục vụ khách hàng tốt hơn` là *giá trị vô hình* lâu dài mà Doanh nghiệp sẽ nhận được
+
+
+=== What: Mô hình Chuyển đổi số iSolution
+
+[quote, bao trinh]
+iSolution là giải pháp `Chuyển đổi số Mạng lưới Kinh doanh`, tập trung vào những đối tượng tạo ra doanh thu (giá trị) trực tiếp và nằm ngoài tầm quản lý kiểm soát của một Doanh nghiệp.
+
+** Đối tượng tạo Doanh thu là Người mua và Người sử dụng sản phẩm, dịch vụ, gọi chung là `Khách mua`. 
+
+** Nhân viên, Địa điểm Kinh doanh cũng là đối tượng tạo ra Doanh thu. 
+
+** Đại lý, cộng tác viên, ..., gọi chung là `Mạng lưới kinh doanh` cũng là đối tượng tạo ra Doanh thu. 
+
+** Quá trình tương tác giữa Khách hàng với Cửa hàng kinh doanh, giữa Nhân viên trong từng phòng ban, giữa Doanh nghiệp với Đại lý, cộng tác viên, ... cũng có thể xem là đối tượng tạo ra giá trị, gọi là `Tương tác tạo giá trị`
+
+Tất cả đối tượng trên sẽ được iSolution "số hoá" bằng nhiều sản phẩm, công cụ như `iCard, iShop, iCustomer`,... và được "chuyển đổi" về quy trình, hoạt động và giám sát, nhằm mục tiêu cải thiện Kết quả kinh doanh và tăng "Tương tác tạo giá trị"
+
+
+Why choose iSolution:: 
+
+* Khách hàng, Mạng lưới kinh doanh, Tương tác tạo giá trị,... là đối tượng độc lập, "bên ngoài" Doanh nghiệp ít  tác động và không thể quản lý được. Đó là lý do iSolution là mô hình Chuyển đổi số từ bên ngoài.
+
+* Các giải pháp Chuyển đổi số khác, thường tập trung  "số hoá" các đối tượng "bên trong", có thể quản lý, kiểm soát như nhân viên, quy trình sản xuất, phòng ban, Khách hàng thân thiết,...
+
+* Một số giải pháp mở rộng ra các đối tượng bên ngoài, nhưng tập trung thông tin đã được số hoá, xem data như là "vàng, dầu thô", cố gắng khai thác giá trị ít ỏi từ biển dữ liệu này.
+
+* Khác với các giải pháp khác phải đầu tư lớn, đầy đủ hệ thống, iSolution có thể ứng dụng ngay, từng bước cho từng đối tượng cần Chuyển đổi số. Chỉ cần ứng dụng iShop, iCard (2 công cụ ban đầu của iSolution) Doanh nghiệp có thể đánh giá được kết quả ban đầu của "Chuyển đổi số" sau 4-8 tuần dựa vào kết quả Kinh doanh, với ngân sách thí điểm từ 10 triệu đồng.
+
+
+=== Who: Chuyển đổi số cho cái gì?
+
+- về hành vi người dùng (tương tác thông qua iCustomer) tại địa điểm kinh doanh của Doanh nghiệp 
+
+- về cách tương tác với Khách hàng mới tại sự kiện quảng bá dịch vụ của Doanh nghiệp (iBrand), 
+
+- cách phục vụ khách hàng theo địa điểm, đội nhóm kinh doanh (iShop)
+
+- về tương tác của Nhân viên với quản lý trực tiếp theo đơn vị kinh doanh 
+
+=== Những tương tác nào giữa người với người tạo ra giá trị?
+
+==== Tương tác giúp giới thiệu, tư vấn, bán hàng 
+
+. Khách hàng quan tâm, muốn tìm hiểu khi thấy Thông điệp, Quảng cáo của Doanh nghiệp
+  
+. Khách hàng của Đại lý, cộng tác viên muốn tìm hiểu về Quảng cáo, Poster 
+
+. Nhân viên giới thiệu trực tiếp với khách hàng
+
+. công tác viên, đại lý giới thiệu, gửi thông tin tới khách hàng
+
+==== Tương tác giúp chăm sóc, phục vụ khách hàng 
+
+. Người cần hỗ trợ, hướng dẫn khi sử dụng sản phẩm, dịch vụ
+
+. Người cần tìm hiểu các sản pẩm
+. Muốn giới thiệu sản phẩm, dịch vụ cho bạn bè, người quen 
+
+////
+
+Ấn tượng ban đầu với khách hàng:: tạo giá trị 
+
+* tương tác từ những khách hàng quan tâm, tò mò về sau khi xem Quảng cáo của Doanh nghiệp. 
+
+** Tìm hiểu thêm thông tin: gọi điện, scan
+
+** Chia sẻ với người quen : gửi link, share hình, đăng facebook,...
+
+* tương tác (lần đầu) của nhân viên khi giới thiệu, tư vấn với khách hàng có nhu cầu (tiềm năng)
+
+** ấn tượng ban đầu gây chú ý 
+
+** thông tin giới thiệu
+
+
+* tương tác của Cộng tác viên, nhân viên đại lý khi giới thiệu với khách hàng
+
+
+Tương tác từ khách hàng đã biết về dịch vụ:: tạo giá trị
+
+* truy cập vào Giới thiệu gợi nhớ 
+
+
+Tương tác khi khách hàng cần chăm sóc, phục vụ
+
+* khi sử dụng sản phẩm, dịch vụ
+
+* liên hệ để hỗ trợ, tương tác 
+
+Tương tác phản ánh những khó khăn, góp ý từ cộng tác viên, đại lý khi bán hàng
+
+
+Việc ngộ nhận, tự tin rằng mọi thứ giá trị trong xã hội đã biết cách số hoá (hoặc đã được số hoá hết), chỉ việc thu thập đủ data và khai thác là có được giá trị.
+
+
+
+, khiến chúng ta bỏ qua nhiều thứ giá trị và không dễ dàng số hoá đầy đủ. 
+
+
+rung nhiều vào cái dễ dàng "số hoá", và khai thác những data này, khiến chúng ta bỏ qua việc "số hoá" những thứ phức tạp như hành vi giữa người với người, tương tác trong Mạng lưới Kinh doanh,...
+
+
+Việc ngộ nhận "đã được số hoá", đã biết cách số hoá 
+Việc chưa nhận ra, hoặc ít quan tâm tới "tương tác tạo giá trị", khiến chúng ta bỏ qua việc "số hoá" các hành vi, tương tác giữa người với người.
+
+
+
+khác với Giải pháp Chuyển đổi số hiện tại, theo mô hình từ bên trong.
+
+
+== Tham khảo thêm
+
+// include::email-thungo.adoc[]
+
+.After landing the cloaked Klingon bird of prey in Golden Gate park:
+ta đi tới chiến bại
+[quote,Captain James T. Kirk,Star Trek IV: The Voyage Home]
+Everybody remember where we parked.
+
+////

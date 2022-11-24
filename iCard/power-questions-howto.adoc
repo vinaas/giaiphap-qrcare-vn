@@ -1,0 +1,51 @@
+
+== iShop câu trả lời cho Câu hỏi triệu đô 
+:docinfo: shared
+:last-update-label!:
+
+
+=== Câu hỏi triệu đô 
+
+[.quote]
+. `Hành vi nào của người dùng smartphone sẽ phổ biến, thay thế cho “quét qrcode” tại Cửa hàng trong vài năm tới?`
+
+. `Điều gì thúc đẩy Chủ cửa hàng thay thế mã qrcode đang có (momo, zalopay,…) bằng 1 Biểu tượng mới, và phổ biến hành vi trên?`
+
+=== Tìm hiểu về câu hỏi 
+
+Thế nào là "quét qrcode":: hành vi của người sử dụng smartphone để tương tác thông qua mã qrcode, có 2 hình thức chính:
+
+. `scan qrcode to access link on browser`: Dùng camera trên iPhone, android mới nhất để truy cập vào link, hoạt động trên browser hoặc ứng dụng hỗ trơ nhúng  
+
+** có thể dùng zalo, ứng dụng đọc qrcode để mở link trong zalo 
+
+. `scan qrcode to process on specific app`: dùng app chuyên dụng, quét mã qrcode để thực hiện thao tác bên trong app như thanh toán, login,...
+
+** `scan to payment`: quét mã qrcode để thanh toán
+** `scan to login`: đăng nhập bằng mã qrcode, không cần nhớ tài khoản đăng nhập 
+
+
+
+=== Sự phổ biến của "quét qrcode"
+
+Khi smartphone trở nên phổ biến, và việc nhập liệu trên smartphone rất khó khăn với mọi người, thì qrcode là 1 tiện ích
+
+- dễ dàng in mã qrcode
+
+- cho phép truy cập vào 1 link trên web dễ dàng nhanh chóng hơn là gõ tên domain. 
+
+- có thể thực hiện bởi hầu hết mọi người.
+
+Quét qrcode vẫn khó thao tác với người lớn tuổi, chưa sử dụng smartphone thành thạo, nên phải chờ tới Covid-19, mới trở nên phổ biến. 
+
+Việc hỗ trợ scan qrcode trên smartphone cũng là vấn đề, nhất là android đời cũ. 
+
+
+== Ghi chú
+
+
+
+
+
+
+
