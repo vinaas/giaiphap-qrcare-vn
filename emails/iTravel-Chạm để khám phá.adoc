@@ -1,0 +1,32 @@
+= iHint - Chạm để khám phá 
+
+== Lôi kéo khách du lịch tới khám phá iHint 
+
+iHint là Bảng hiệu công nghệ, đặt tại các điểm du lịch, chứa tương tác, hình ảnh thực tế của những du khách đã tới đây khám phá.
+
+Mục tiêu của iHint là phát triển du lịch khám phá, bền vững tại địa phương triển khai:: 
+
+* thúc đẩy du khách tới tận nơi để khám phá, chia sẻ trải nghiệm và lôi kéo bạn bè người thân thực hiện các chuyến khám phá tiếp theo. 
+
+* xây dựng các chương trình, tour du lịch mang tính khám phá, trải nghiệm, thử thách tại các điểm đặt iHint. kết nối với các sự kiện, dịch vụ, hoạt động,... để phát triển du lịch bền vững.
+
+* Công cụ đo lường, tiếp nhận phản hồi thực tế của du khách, các đơn vị phục vụ,... đánh giá cải thiện chất lượng du lịch triển khai iHint.
+
+
+
+
+
+
+Để cập nhật hình ảnh thực tế vào điểm du lịch này, du khách cần tới tận nơi, chạm vào iHint để thực hiện::
+
+* 
+
+
+Để giới thiệu bạn bè, người quen về điểm du lịch này bằng cách chia sẻ hình ảnh thực tế có tích hợp qrcode iHint::
+*
+
+* Liên kết nhiều iHint thành một hintMaps, địa phương và các đơn vị du lịch có thể tạo ra các hoạt động truyền thông, quảng bá độc đáo, riêng biệt
+
+** thông tin quảng cá, các sự kiện lễ hội do chính địa phương cung cấp 
+** thông tin khuyến mãi do chính đơn vị Du lịch cung cấp 
+** 

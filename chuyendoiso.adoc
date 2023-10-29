@@ -1,0 +1,49 @@
+:docinfo: shared
+:stylesheet: my-stylesheet.css
+:last-update-label!:
+
+= Giải pháp Chuyển đổi số của VinaAS 
+
+Chuyển đổi số VinaAS là Gói tư vấn với cam kết tăng doanh thu của Doanh nghiệp 
+trên 10% sau 6 tháng chuyển đổi số bằng các công cụ iShop, iCard.
+
+Để tham gia Chuyển đổi số VinaAS, doanh nghiệp cần triển khai công cụ iShop, iCard từ 100 triệu đồng
+để số hoá hoạt động kinh doanh và cả mạng lưới phân phối hiện tại. 
+
+Lúc đó Chúng tôi sẽ đồng hành với ban giám đốc trong vòng 6 tháng, họp định kỳ 2 tuần 1 lần để tư vấn các biện
+pháp để tăng kết quả kinh doanh sau 6-12 tháng. 
+
+Các biện pháp của chúng tôi tập trung vào 3 quá trình 
+
+. Số hoạt mạng lưới kinh doanh (trang bị công cụ)
+
+* iShop, iCard để số hoá nội bộ doanh nghiệp 
+* iShop, iCard để số hoá mạng lưới phân phối: nhà phân phối và sản phẩm phân phối, đại lý và công tác viên bán hàng 
+
+* Số hoá các chính sách kinh doanh: chiết khấu cho nhà phân phối, đại lý và cả cộng tác viên 
+
+. Hướng dẫn Triển khai: Chuyển đổi hoạt động kinh doanh có tích hợp công cụ số hoá
+
+* tích hợp iShop vào các hoạt động tiếp thị, marketing, 
+
+* điều chỉnh quy trình tiếp thị, bán hàng, và chăm sóc khách hàng có sử dụng iShop, iCard 
+
+. Tư vấn chiến lược mở rộng thị trường (chiến lược mở rộng)
+
+* chính sách cho việc giới thiệu Nhà phân phối, đại lý
+
+* đề xuất phát triển sản phẩm trải nghiệm (UX sampling)
+
+Với các doanh nghiệp quy mô nhỏ, lợi nhuận từ 10% doanh số tăng thêm dưới 1 tỷ đồng, hoặc các doanh nghiệp không đồng ý trả 20-30% phần lợi nhuận tăng thêm từ việc tư vấn, có thể mua Gói công cụ iShop, iCard và chủ động triển khai .
+
+
+Ngoài ra, chúng tôi cũng nghiên cứu sản phẩm, thị trưởng để phát triển kênh phân phối mới, chiếm từ 10% doanh số hiện tại: 
+
+Trực tiếp phát triển nhu cầu, thị trường mới 
+
+* Kênh TMDT cho các doanh nghiệp chưa có kênh này
+* Kênh iShowroom cho các sản phẩm phù hợp 
+* Nghiên cứu nhu cầu, thị trường mới. 
+
+
+

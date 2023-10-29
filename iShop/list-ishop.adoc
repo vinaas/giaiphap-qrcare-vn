@@ -1,6 +1,12 @@
-### ISHOP DEMO
+:docinfo: shared
+:stylesheet: my-stylesheet.css
+:last-update-label!:
 
-#### vinaas - 88.0001
+== List iShop 
+
+=== iShop for VinaAS 
+
+==== Công ty Phần Mềm tiên tiến Việt Nam
 ```json
 https://www.qrcare.vn/s/100010010880001/i/1/p/324
 https://www.qrcare.vn/s/100010010880001/i/2/p/273
@@ -8,7 +14,7 @@ https://www.qrcare.vn/s/100010010880001/i/3/p/170
 https://www.qrcare.vn/s-edit/100010010880001/p/69067013
 ```
 
-#### Danh mục sản phẩm bán lẻ 
+==== Danh mục sản phẩm bán lẻ 
 
 - iCard
 - iShop 
@@ -20,8 +26,8 @@ https://www.qrcare.vn/s/100010010880002/i/2/p/250
 https://www.qrcare.vn/s/100010010880002/i/3/p/800
 https://www.qrcare.vn/s-edit/100010010880002/p/54662274
 ```
-### iShop 
-#### Giải pháp Chuyển đổi số iShop 
+=== iShop 
+==== Giải pháp Chuyển đổi số iShop 
 
 [link](./88.0003.md)
 
@@ -32,7 +38,7 @@ https://www.qrcare.vn/s/100010010880003/i/3/p/231
 https://www.qrcare.vn/s-edit/100010010880003/p/12373842
 ```
 
-### iShop - Best Practives
+=== iShop - Best Practives
 Ngành nghề sử dụng 
 ```json
 https://www.qrcare.vn/s/100010010880004/i/1/p/104
@@ -42,7 +48,7 @@ https://www.qrcare.vn/s-edit/100010010880004/p/16796602
 ```
 
 
-### iShowroom (iDisplay) - kênh phân phối Chuyển đổi số
+=== iShowroom (iDisplay) - kênh phân phối Chuyển đổi số
 
 - số hoá showroom
 - chuyển đổi mô hình bán hàng : giới thiệu nhu cầu 
@@ -56,7 +62,7 @@ https://www.qrcare.vn/s-edit/100010010880005/p/17732658
 ```
 
 
-### iShop - userGuide - Hướng dẫn sử dụng 
+=== iShop - userGuide - Hướng dẫn sử dụng 
 ```json
 https://www.qrcare.vn/s/100010010880006/i/1/p/362
 https://www.qrcare.vn/s/100010010880006/i/2/p/407
@@ -64,7 +70,7 @@ https://www.qrcare.vn/s/100010010880006/i/3/p/419
 https://www.qrcare.vn/s-edit/100010010880006/p/19842607
 ```
 
-### iSHOP - Chuyển đổi số 
+=== iSHOP - Chuyển đổi số 
 ```JSON 
 https://www.qrcare.vn/s/100010010880007/i/1/p/464
 https://www.qrcare.vn/s/100010010880007/i/2/p/369
@@ -72,7 +78,7 @@ https://www.qrcare.vn/s/100010010880007/i/3/p/333
 https://www.qrcare.vn/s-edit/100010010880007/p/51936175
 ```
 
-### iShop - tìm nhà phân phối
+=== iShop - tìm nhà phân phối
 ```json
 iShop Tìm Nhà phân phối  
 https://www.qrcare.vn/s/100010010880033/i/2/p/119
@@ -80,7 +86,7 @@ https://www.qrcare.vn/s-edit/100010010880033/p/30697004
 ```
 
 
-### iShop - Tuyển dụng
+=== iShop - Tuyển dụng
 ```json 
 https://www.qrcare.vn/s/100010010880008/i/1/p/190
 https://www.qrcare.vn/s/100010010880008/i/2/p/376
@@ -88,7 +94,7 @@ https://www.qrcare.vn/s/100010010880008/i/3/p/147
 https://www.qrcare.vn/s-edit/100010010880008/p/32982816
 ``` 
 
-### iShop - Distribution Network (Mang luoi phan phoi)
+=== iShop - Distribution Network (Mang luoi phan phoi)
 ```json 
 https://www.qrcare.vn/s/100010010880009/i/1/p/153
 https://www.qrcare.vn/s/100010010880009/i/2/p/370
@@ -96,7 +102,7 @@ https://www.qrcare.vn/s/100010010880009/i/3/p/401
 https://www.qrcare.vn/s-edit/100010010880009/p/21638467
 ```
 
-### Customers 
+=== Customers 
 
 Môi trường làm việc (iShop + iCard) : Doanh nghiệp 
 ```json 
@@ -119,7 +125,7 @@ https://www.qrcare.vn/s-edit/100010010880012/p/15737366
 ```
 
 
-### Tuyển dụng 
+=== Tuyển dụng 
 
 ```json
 //Giới thiệu sản phẩm iCard 
@@ -141,24 +147,27 @@ https://www.qrcare.vn/s-edit/100010010880016/p/37580657
 https://www.qrcare.vn/s-edit/100010010880017/p/19419187
 https://www.qrcare.vn/s-edit/100010010880018/p/44494366
 https://www.qrcare.vn/s-edit/100010010880019/p/42539741
-
-```
-
-```json 
-//Thị trường Mạ vàng 24K - Thư nhà đầu tư
 https://www.qrcare.vn/s-edit/100010010880020/p/10168410
-```
-
-### iShowroom - Triễn lãm
 
 ```
-// triển lãm đang (sắp) diễn ra
-https://m.qrcare.vn/#!/s-edit/100010010880022/p/93193867
+
+=== iShowroom - Triễn lãm
+
+triển lãm đang (sắp) diễn ra
 ```
+https://www.qrcare.vn/s/100010010880022/i/1/p/377
+https://m.qrcare.vn/=!/s-edit/100010010880022/p/93193867
+```
+* khuyến mãi tại sự kiện
+* Menu sản phẩm
+* Chương trình sự kiện
+* Chỉ đường 
+* Link zalo hỗ trợ online 
+* Thông tin Thanh toán
 
-#### 
+* Sự kiện đã diễn ra
 
-//Đã gửi Mr Quang (cần thu hồi lại)
+==== Đã gửi Mr Quang (cần thu hồi lại)
 ```json 
 //Mạng lưới iShowroom HCM
 https://www.qrcare.vn/surl/100010010880028/i/1/p/962
@@ -186,7 +195,7 @@ https://www.qrcare.vn/s-edit/100010010880042/p/19216747
 ```
 
 
-#### Demo Clip-Video 
+==== Demo Clip-Video 
 
 Hầu hết lĩnh vực, ngành nghề kinh doanh, có thể sử dụng iShop 
 
@@ -237,7 +246,7 @@ https://www.qrcare.vn/s-edit/10001001088002/p/93193867
 
 
 
-#### Tư vấn Chuyển đổi số 
+==== Tư vấn Chuyển đổi số 
 
 Doanh nghiệp/ tổ chức / cơ quan nhà nước 
 ```json 
@@ -252,7 +261,7 @@ Outsource: phát triển giải pháp
 ```json 
 
 ``` 
-#### Đại lý và Tuyển dụng
+==== Đại lý và Tuyển dụng
 
 
 Tuyển dụng 
@@ -268,20 +277,20 @@ https://www.qrcare.vn/s/100010010880023/i/2/p/403
 https://www.qrcare.vn/s-edit/100010010880023/p/27769164
 ```
 
-#### KD Miền bắc
+==== KD Miền bắc
 
 ```json
 
 
 ```
-#### Kinh doanh miền nam
+==== Kinh doanh miền nam
 
 ```json
 https://www.qrcare.vn/s/100010010880024/i/2/p/207
 https://www.qrcare.vn/s-edit/100010010880024/p/25276007
 ```
 
-#### Kinh doanh Miền trung
+==== Kinh doanh Miền trung
 
 ```json 
 https://www.qrcare.vn/s/100010010880012/i/1/p/881
@@ -291,9 +300,42 @@ https://www.qrcare.vn/s-edit/100010010880012/p/15737366
 
 
 
+Gửi anh Dũng,
+
+Qua trao đổi trong buổi gặp chiều thứ 2 (13.03), em đề xuất việc hợp tác giữa hai bên chia thành 2 phần: phát triển kinh doanh cho 2 sản phẩm đang có và phát triển thị trường văn phòng và gia đình cho các sản phẩm tiếp theo của HoneyBuddy.  
+
+Chúng ta sẽ bắt đầu với phần 1 trước, đó là phát triển kinh doanh bao gồm:
+ + xây dựng đội ngũ cộng tác viên bán hàng sử dụng các công cụ iShop, Icard 
+ + hợp tác với nhiều ban tổ chức để triển khai iShowroom tại các sự kiện sắp tới. 
+
+Về chiến lược triển khai, có trao đổi sơ lược với anh theo mô hình bên dưới
 
 
-#### Dakota 
+Vai trò của bên VinaAS:
+
+Cung cấp iShowroom, iShop, Icard kèm hướng dẫn, hỗ trợ online và tư vấn quy trình bán hàng, vận hành… để tăng hiệu quả bán hàng. 
+Nhân sự hỗ trợ Online để giám sát hoạt động bán hàng, xuất dữ liệu chi tiết, báo cáo để các bên đối chiếu, xác nhận hoa hồng từ kết quả bán hàng.
+
+Quyền lợi của bên VinaAS:
+10% doanh số được ghi nhận bởi các công cụ bên VinaAS.
+Trường hợp doanh số phát sinh qúa thấp thì bên HoneyBuddy bù chi phí còn thiếu, cơ bản như sau: 
+  + Phí cho 1 Sự kiện: 1 triệu đồng với quy mô dưới 5.000 VĐV, và 2 triệu đồng cho quy mô dưới 10.000 VNĐ và 3 triệu đồng cho quy mô trên 10.000 VĐV. 
+  + 1 Cộng tác viên bán hàng: phí là 150k đồng / tháng. Không tính cho CTV hết tham gia, hoặc không phát sinh đơn hàng sau 2 tháng.
+
+Vai trò của bên HoneyBuddy: 
+
+Phối hợp với bên VinaAS triển khai offline tăng hiệu quả bán hàng tại các sự kiện
+Giới thiệu iShowroom với ban tổ chức, doanh nghiệp để hợp tác triển khai.
+Giới thiệu, bán iShop, Icard cho ban tổ chức, doanh nghiệp hay cá nhân có nhu cầu.
+
+Quyền lợi của HoneyBuddy
+
+Khi một địa điểm triển khai iShowroom, sản phẩm của HoneyBuddy sẽ được ưu tiên triển khai miễn phí đặt chỗ trong vòng 3 tháng đầu. 
+Trường hợp ban tổ chức mua các công cụ iShop, Icard  sẽ nhận được 10% hoa hồng và không phải trả Phí cho từng Sự kiện như trên. 
+Hưởng 10% doanh số từ các sản phẩm của VinaAS bán ra thông qua mạng lưới Cộng tác viên của HoneyBuddy. 
+
+
+==== Dakota 
 ```json 
 https://www.qrcare.vn/s-edit/100010010880034/p/53151287
 https://www.qrcare.vn/s-edit/100010010880035/p/13011198
@@ -303,7 +345,17 @@ https://www.qrcare.vn/s-edit/100010010880037/p/35533162
 https://www.qrcare.vn/s-edit/100010010880038/p/52264978
 ```
 
-#### Chưa sử dụng 
+=== HoneyBuddy
+
+```json
+https://www.qrcare.vn/s-edit/100010010880043/p/33782667
+https://www.qrcare.vn/s-edit/100010010880044/p/23390524
+https://www.qrcare.vn/s-edit/100010010880045/p/30019185
+https://www.qrcare.vn/s-edit/100010010880046/p/40650834
+https://www.qrcare.vn/s-edit/100010010880047/p/34543523
+```
+
+==== Chưa sử dụng 
 ```json 
 
 https://www.qrcare.vn/s-edit/100010010880043/p/33782667
@@ -313,8 +365,6 @@ https://www.qrcare.vn/s-edit/100010010880046/p/40650834
 https://www.qrcare.vn/s-edit/100010010880047/p/34543523
 https://www.qrcare.vn/s-edit/100010010880048/p/33505303
 https://www.qrcare.vn/s-edit/100010010880049/p/23312252
-
-// nhũ vàng 24K
 https://www.qrcare.vn/s-edit/100010010880050/p/10894574
 https://www.qrcare.vn/s-edit/100010010880051/p/24458686
 https://www.qrcare.vn/s-edit/100010010880052/p/10632800
@@ -346,60 +396,4 @@ https://www.qrcare.vn/s-edit/100010010880077/p/24597342
 https://www.qrcare.vn/s-edit/100010010880078/p/32701912
 https://www.qrcare.vn/s-edit/100010010880079/p/36822980
 https://www.qrcare.vn/s-edit/100010010880080/p/27893394
-```
-
-## ICards Demo
-
-```json
-quocbao
-https://www.qrcare.vn/n/100010010560001/p/42
-
-https://www.qrcare.vn/n/100010010560002/p/19
-https://www.qrcare.vn/n/100010010560003/p/55
-https://www.qrcare.vn/n/100010010560004/p/70
-https://www.qrcare.vn/n/100010010560005/p/10
-https://www.qrcare.vn/n/100010010560006/p/38
-https://www.qrcare.vn/n/100010010560007/p/35
-https://www.qrcare.vn/n/100010010560008/p/88
-https://www.qrcare.vn/n/100010010560009/p/15
-https://www.qrcare.vn/n/100010010560010/p/31
-https://www.qrcare.vn/n/100010010560011/p/23
-https://www.qrcare.vn/n/100010010560012/p/10
-https://www.qrcare.vn/n/100010010560013/p/16
-https://www.qrcare.vn/n/100010010560014/p/26
-https://www.qrcare.vn/n/100010010560015/p/11
-https://www.qrcare.vn/n/100010010560016/p/30
-https://www.qrcare.vn/n/100010010560017/p/19
-https://www.qrcare.vn/n/100010010560018/p/30
-https://www.qrcare.vn/n/100010010560019/p/42
-https://www.qrcare.vn/n/100010010560020/p/42
-
-https://www.qrcare.vn/edit-card/100010010560001/p/42035451
-https://www.qrcare.vn/edit-card/100010010560002/p/19466389
-https://www.qrcare.vn/edit-card/100010010560003/p/55308819
-https://www.qrcare.vn/edit-card/100010010560004/p/7045380
-https://www.qrcare.vn/edit-card/100010010560005/p/10087303
-https://www.qrcare.vn/edit-card/100010010560006/p/38090079
-https://www.qrcare.vn/edit-card/100010010560007/p/35684233
-https://www.qrcare.vn/edit-card/100010010560008/p/88763390
-https://www.qrcare.vn/edit-card/100010010560009/p/15617565
-https://www.qrcare.vn/edit-card/100010010560010/p/31243322
-https://www.qrcare.vn/edit-card/100010010560011/p/23104471
-https://www.qrcare.vn/edit-card/100010010560012/p/10673851
-https://www.qrcare.vn/edit-card/100010010560013/p/16010747
-https://www.qrcare.vn/edit-card/100010010560014/p/26231939
-https://www.qrcare.vn/edit-card/100010010560015/p/11586485
-https://www.qrcare.vn/edit-card/100010010560016/p/30266173
-https://www.qrcare.vn/edit-card/100010010560017/p/19678371
-https://www.qrcare.vn/edit-card/100010010560018/p/30124757
-https://www.qrcare.vn/edit-card/100010010560019/p/42795011
-https://www.qrcare.vn/edit-card/100010010560020/p/42527923
-https://www.qrcare.vn/edit-card/100010010560021/p/41234651
-https://www.qrcare.vn/edit-card/100010010560022/p/36957125
-https://www.qrcare.vn/edit-card/100010010560023/p/29587562
-https://www.qrcare.vn/edit-card/100010010560024/p/25009883
-https://www.qrcare.vn/edit-card/100010010560025/p/83878270
-https://www.qrcare.vn/edit-card/100010010560026/p/27282103
-https://www.qrcare.vn/edit-card/100010010560027/p/14006350
-https://www.qrcare.vn/edit-card/100010010560028/p/39728539
 ```

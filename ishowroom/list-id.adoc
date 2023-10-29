@@ -1,0 +1,70 @@
+:docinfo: shared
+:stylesheet: my-stylesheet.css
+:last-update-label!:
+
+= Tổng quan iShowroom 
+
+== cấu trúc
+
+ishowroom.vn::
+* /index.html 
+* /tin-tuc/*.html 
+** khai trương iShowroom: danh sách tin giới thiệu các điểm kinh doanh triển khai chiến dịch mở mới
+* /khai-truong/*.html 
+** tin đối tác hợp tác với ishowroom 
+
+* /mang-luoi/*.html 
+
+
+
+
+
+== ID: 88.0005
+
+```json 
+https://www.qrcare.vn/s/100010010880005/i/1/p/427
+https://www.qrcare.vn/s/100010010880005/i/2/p/951
+https://www.qrcare.vn/s/100010010880005/i/3/p/812
+https://www.qrcare.vn/s-edit/100010010880005/p/17732658
+```
+
+=== Nội dung
+
+. Tiêu đề
+
+* Mạng lưới iShowroom 
+
+* hợp tác độc quyền với điểm kinh doanh
+
+. Slideshow
+
+- mục tiêu triển khai 3 tháng tới 
+- iVoucher miễn phí triển khai 3 tháng
+
+. 0. Thư ngỏ mời hợp tác
+
+. 1. Chạm để nhận may mắn
+
+
+. 3. Mua để tặng niềm vui
+
+. 2. iSampling Trải nghiệm tại chỗ
+* mua iSampling tại chỗ 
+
+. Bảng giá hợp tác
+
+. 4. iVoucher
+
+* dùng iVoucher để mua online
+
+. ishowroom hiện tại
+
+* mời quý khách tới tham quan. 
+
+
+. Kế hoạch triển khai năm 2023
+
+. Zalo cho khách hàng muốn hợp tác. 
+
+
+
